@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<!-- saved from url=(0134)https://moringaschool.instructure.com/courses/448/pages/weekend-welcome-to-flask-the-internet-virtual-environment?module_item_id=40075 -->
+<html class="" dir="ltr" lang="en-GB"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link rel="preload" href="https://moringaschool.instructure.com/dist/fonts/lato/extended/Lato-Regular-bd03a2cc27.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="https://moringaschool.instructure.com/dist/fonts/lato/extended/Lato-Bold-cccb897485.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="https://moringaschool.instructure.com/dist/fonts/lato/extended/Lato-Italic-4eb103b4d1.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="stylesheet" media="screen" href="./fl18_files/lato_extended-f5a83bde37.css">
+    <script async="" src="./fl18_files/analytics.js"></script><script async="" src="./fl18_files/analytics.js"></script><script>if (navigator.userAgent.match(/(MSIE|Trident\/)/)) location.replace('/ie-is-not-supported.html')</script>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="https://instructure-uploads-eu.s3-eu-west-1.amazonaws.com/account_118060000000000001/attachments/23/Moringa%20Logo-02.png">
+  <link rel="apple-touch-icon" href="https://instructure-uploads-eu.s3-eu-west-1.amazonaws.com/account_118060000000000001/attachments/16/MORINGA%20TREE%20WHITE.png">
+  <link rel="stylesheet" media="all" href="./fl18_files/variables-8391c84da435c9cfceea2b2b3317ff66.css">
+  <link rel="stylesheet" media="all" href="./fl18_files/common-38059c49a5.css">
+  <meta name="apple-itunes-app" content="app-id=480883488">
+<link rel="manifest" href="https://moringaschool.instructure.com/web-app-manifest/manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#8e9847">
+  <link rel="stylesheet" media="all" href="./fl18_files/wiki_page-f893268088.css">
+<link rel="stylesheet" media="all" href="./fl18_files/new_user_tutorials-2950c871dd.css">
+  <link rel="stylesheet" media="all" href="./fl18_files/canvas.css">
+  <script>
+    function _earlyClick(e){
+      var c = e.target
+      while (c && c.ownerDocument) {
+        if (c.getAttribute('href') == '#' || c.getAttribute('data-method')) {
+          if (!e.defaultPrevented) {
+            e.preventDefault()
+          }
+          (_earlyClick.clicks = _earlyClick.clicks || []).push(c)
+          break
+        }
+        c = c.parentNode
+      }
+    }
+    document.addEventListener('click', _earlyClick)
+  </script>
+
+
+  <script>
+    INST = {"environment":"production","allowMediaComments":true,"kalturaSettings":{"domain":"eu.nv.instructuremedia.com","resource_domain":"eu.nv.instructuremedia.com","rtmp_domain":"dub.rtmp.instructuremedia.com","partner_id":"5","subpartner_id":"0","player_ui_conf":"0","kcw_ui_conf":"0","upload_ui_conf":"0","max_file_size_bytes":534773760,"do_analytics":false,"hide_rte_button":false,"js_uploader":true},"logPageViews":true,"maxVisibleEditorButtons":3,"editorButtons":[{"name":"Commons Favourites","id":1,"favorite":false,"url":"https://lor.instructure.com/api/lti/favorite-resources","icon_url":"https://lor.instructure.com/img/icon_commons.png","canvas_icon_class":null,"width":800,"height":400,"use_tray":true,"description":"\u003cp\u003eFind and share course content\u003c/p\u003e\n"},{"name":"Google Drive (LTI 1.3)","id":148,"favorite":false,"url":"https://assignments.google.com/lti/e","icon_url":"https://www.gstatic.com/images/branding/product/1x/drive_16dp.png","canvas_icon_class":null,"width":690,"height":530,"use_tray":false,"description":"\u003cp\u003eCollect, analyze, and grade student work with Google Assignments\u003c/p\u003e\n"},{"name":"YouTube","id":158,"favorite":true,"url":"https://www.edu-apps.org/lti_public_resources/?tool_id=youtube","icon_url":"https://www.edu-apps.org/assets/lti_public_resources/youtube_icon.png","canvas_icon_class":null,"width":560,"height":600,"use_tray":false,"description":"\u003cp\u003eSearch publicly available YouTube videos. A new icon will show up in your course rich editor letting you search YouTube and click to embed videos in your course material.\u003c/p\u003e\n"},{"name":"Google Apps","id":162,"favorite":false,"url":"https://google-drive-lti-iad-prod.instructure.com/lti/rce-content-selection","icon_url":"https://google-drive-lti-iad-prod.instructure.com/icon.png","canvas_icon_class":null,"width":700,"height":600,"use_tray":false,"description":"\u003cp\u003eAllows you to pull in documents from Google Drive to Canvas\u003c/p\u003e\n"}]};
+    ENV = {"ASSET_HOST":"https://du11hjcvx0uqb.cloudfront.net/br","active_brand_config_json_url":"https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/b5f0573040e8649cf4cc5fc40f5957de/variables-8391c84da435c9cfceea2b2b3317ff66.json","url_to_what_gets_loaded_inside_the_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/b5f0573040e8649cf4cc5fc40f5957de/variables-8391c84da435c9cfceea2b2b3317ff66.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/responsive_layout_normal_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-30c1708b62.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/no_variables/bundles/lato_extended-f5a83bde37.css"],"url_for_high_contrast_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/default/variables-high_contrast-8391c84da435c9cfceea2b2b3317ff66.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/responsive_layout_high_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-4a61d234df.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/no_variables/bundles/lato_extended-f5a83bde37.css"],"current_user_id":"4577","current_user_roles":["user","student"],"current_user_types":[],"current_user_disabled_inbox":false,"files_domain":"cluster295.canvas-user-content.com","DOMAIN_ROOT_ACCOUNT_ID":"118060000000000001","k12":false,"use_responsive_layout":true,"use_rce_enhancements":true,"rce_auto_save":true,"use_rce_a11y_checker_notifications":false,"help_link_name":"Help Desk","help_link_icon":"cog","use_high_contrast":false,"auto_show_cc":false,"disable_celebrations":false,"disable_keyboard_shortcuts":false,"LTI_LAUNCH_FRAME_ALLOWANCES":["geolocation *","microphone *","camera *","midi *","encrypted-media *","autoplay *"],"DEEP_LINKING_POST_MESSAGE_ORIGIN":"https://moringaschool.instructure.com","DEEP_LINKING_LOGGING":null,"comment_library_suggestions_enabled":false,"SETTINGS":{"open_registration":false,"collapse_global_nav":false,"release_notes_badge_disabled":false},"API_GATEWAY_URI":"https://api.eu-west-1.instructure.com/graphql/future","DIRECT_SHARE_ENABLED":false,"FEATURES":{"cc_in_rce_video_tray":true,"featured_help_links":true,"rce_pretty_html_editor":true,"rce_better_file_downloading":true,"rce_better_file_previewing":true,"strip_origin_from_quiz_answer_file_references":true,"rce_buttons_and_icons":false,"important_dates":true,"feature_flag_filters":false,"k5_parent_support":false,"k5_homeroom_many_announcements":true,"responsive_awareness":true,"responsive_misc":true,"product_tours":false,"files_dnd":true,"usage_rights_discussion_topics":true,"inline_math_everywhere":true,"granular_permissions_manage_users":true,"rce_limit_init_render_on_page":true,"embedded_release_notes":true,"canvas_k6_theme":false,"new_math_equation_handling":true},"current_user":{"id":"4577","display_name":"john.gicho@student.moringaschool.com","avatar_image_url":"https://moringaschool.instructure.com/images/messages/avatar-50.png","html_url":"https://moringaschool.instructure.com/about/4577","pronouns":null,"avatar_is_fallback":true},"page_view_update_url":"/page_views/16fad799-7188-489f-b557-f3fe5dbab9c7?page_view_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpIjoiMTZmYWQ3OTktNzE4OC00ODlmLWI1NTctZjNmZTVkYmFiOWM3IiwidSI6MTE4MDYwMDAwMDAwMDA0NTc3LCJjIjoiMjAyMS0xMC0wOVQwODoyMzo1My4xMloifQ.FoGXtpKvbSkcKinBSu4AKApt4CzJUtUXy_HD5NN0ua0","context_asset_string":"course_448","ping_url":"https://moringaschool.instructure.com/api/v1/courses/448/ping","TIMEZONE":"Africa/Nairobi","CONTEXT_TIMEZONE":"Africa/Nairobi","LOCALE":"en-GB","BIGEASY_LOCALE":"en_GB","FULLCALENDAR_LOCALE":"en-gb","MOMENT_LOCALE":"en-gb","rce_auto_save_max_age_ms":86400000,"K5_USER":false,"K5_HOMEROOM_COURSE":false,"K5_SUBJECT_COURSE":false,"WIKI_RIGHTS":{"read":true},"PAGE_RIGHTS":{"read":true},"DEFAULT_EDITING_ROLES":"teachers","WIKI_PAGES_PATH":"/courses/448/pages","WIKI_PAGE":{"editing_roles":"teachers","title":"Weekend: Welcome to Flask; The Internet Virtual Environment","created_at":"2021-08-29T16:31:14+03:00","url":"weekend-welcome-to-flask-the-internet-virtual-environment","page_id":"37633","published":true,"hide_from_students":false,"front_page":false,"html_url":"https://moringaschool.instructure.com/courses/448/pages/weekend-welcome-to-flask-the-internet-virtual-environment","todo_date":null,"updated_at":"2021-08-29T16:31:14+03:00","locked_for_user":false,"body":"\u003ch2\u003eWelcome to Flask\u003c/h2\u003e\n\u003cp\u003eFlask is a web framework that has tools that allow us to create web applications.\u003c/p\u003e\n\u003cp\u003eIt belongs to a category of web frameworks known as a\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003emicro-framework\u003c/strong\u003e. This means Flask contains very few dependencies out of the box. It allows the developer to take the driver's seat and have full creative control over the application.\u003c/p\u003e\n\u003cp\u003eIt comes packed with a robust core that is also supplemented by many other third party extensions that can be picked to fit our different needs.\u003c/p\u003e\n\u003cp\u003eFlask has two main dependencies:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cstrong\u003eWerkzeug\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003e- This provides flask with _routing_,_debugging_ and _web server_ capabilities.\u003c/li\u003e\n\u003cli\u003e\n\u003cstrong\u003eJinja 2\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003e- This provides template support for flask.\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003eWeb Clients and Servers\u003c/h2\u003e\n\u003cp\u003eYou're about to learn your first Python web framework! Before we begin, let's address several language independent concepts that apply to the internet in general.\u003c/p\u003e\n\u003cp\u003eIn this lesson, we will walk through details of how the web works; From your browser, known as the\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003eclient\u003c/strong\u003e, to a\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003eweb server\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003eand back again.\u003c/p\u003e\n\u003ch3\u003eIP Addresses and the Internet\u003c/h3\u003e\n\u003cp\u003eFirst, let's talk about the\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003eInternet\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003eWhen we use the term Internet, we refer to millions of networks that are connected to allow devices (computers, laptops, tablets, phones, etc) to communicate with one another, and access content.\u003c/p\u003e\n\u003cp\u003eSimilar to the address of your home, the device you use to browse the Internet also has an address called an\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003eInternet Protocol\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003eaddress, or\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003eIP address\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003efor short. This address is assigned by an\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003eInternet Service Provider (ISP)\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003eSimilarly, the server for a website you visit also has an IP address. IP addresses are represented with a set of four groups of numbers separated by periods, like this:\u003c/p\u003e\n\u003cp\u003e_198.185.159.145_\u003c/p\u003e\n\u003cp\u003eYou may also see an additional number after an IP Address that's separated from the others by a colon, like this:\u003c/p\u003e\n\u003cp\u003e_198.185.159.145:43_\u003c/p\u003e\n\u003cp\u003eThis additional number is a\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003eport\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003enumber. A port number is like an apartment number or box number after your mailing or home address. It indicates an even more specific location information will travel to at the particular address.\u003c/p\u003e\n\u003ch3\u003eCommunicating Between Addresses\u003c/h3\u003e\n\u003cp\u003eTo recap, we've covered two addresses so far: Your device's address and a website's address. Next, let's walk through how your address and the website's address interact when you visit a website on your device.\u003c/p\u003e\n\u003ch4\u003eClient-Server Process\u003c/h4\u003e\n\u003ch5\u003eRequests\u003c/h5\u003e\n\u003cp\u003eFirst, in order to access a website you must make a request from a client. The client is usually a web browser, like Chrome, Firefox, Safari, or Internet Explorer. Essentially,anything that facilitates your interaction with the web and web addresses. And making a request usually looks like entering a web address in the browser's _URL bar_, clicking a link, or submitting a form. Anything that triggers a navigational change to a new location on the internet.\u003c/p\u003e\n\u003cp\u003eWhen you create a request, the client constructs a message (similar to mailing something from one address to another). This message must be formatted using a strict set of rules, or protocol, known as\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003eHypertext Transfer Protocol (HTTP)\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003ePart of this message includes the web address that you are sending your request to: For example, when we click a link to visit this area of the website, the web address _http://moringaschool.com/_ is included.\u003c/p\u003e\n\u003cp\u003eContinuing with the metaphor of mailing a letter, Hypertext Transfer Protocol (HTTP) is similar to the formatting rules of addressing an envelope. You can't place the address just anywhere, or format it in any manner you please. There is a protocol for what information is required (street address, city, state, zip), the format it is written in, and where these pieces of information are placed on the envelope. Deviation from this protocol will result in your message, or \"letter\", not reaching its intended destination.\u003c/p\u003e\n\u003cp\u003eHTTP has similar standards. It requires certain kinds of information, placed and formatted in a specific manner in order for the client to reach its destination. For instance, when the request message for http://moringaschool.com/ leaves the client, the ISP is the first stop on the round trip to collect the Moringa School's web content from the server where it is stored.\u003c/p\u003e\n\u003cp\u003eBefore the location of the server can be found, the IP address must be identified using the web address provided in the client's request message. This is the job of the\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003eDomain Naming System\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003eor\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003eDNS servers\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003eThere are hundreds of DNS servers that house databases with the single purpose of resolving web addresses to IP addresses. In our example, a DNS server matches _http://moringaschool.com/_ to the IP address: _198.54.116.26_. Once resolved to an IP address, your request message is sent to its identified destination, 198.54.116.26, or, the server that contains our Moringa School's website.\u003c/p\u003e\n\u003cp\u003eThe web server receives the message and determines the resource that is being located or acted upon in the request. In our example, the request to view _http://moringaschool.com/_ will gather the resource for displaying the main Courses page. This resource is an an HTML document. Depending on the website, other resources may need to be gathered too, such as images, stylesheets, scripts, videos, etc.\u003c/p\u003e\n\u003ch5\u003eResponses\u003c/h5\u003e\n\u003cp\u003eWhen the content is collected, the server returns it in a\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003eresponse\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003eback to the client. The response is interpreted by the client and you see the _http://moringaschool.com/_ main page displayed in your browser window.\u003c/p\u003e\n\u003cp\u003eWhen you interact again with the site, by clicking a link, or navigating to a different area, the whole process begins again.\u003c/p\u003e\n\u003cp\u003eAlthough you're probably most familiar with making web requests through your web browser, know that any program can actually be a web client. For instance, a program installed on your computer that automatically checks for and downloads updates, an app running on your tablet, or even one web server making a request to another web server are all clients. Each of these must use the same HTTP protocol.\u003c/p\u003e\n\u003ch5\u003eTerminology\u003c/h5\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eClient\u003c/strong\u003e: A computer program that sends a request to another program for data or services (e.g., a web browser is a client that sends requests to a web server).\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eServer or Web Server\u003c/strong\u003e: A computer program or device that uses HTTP to distribute information to a client.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eInternet Protocol (IP) Address\u003c/strong\u003e: A set of numbers separated by periods that uniquely identifies a device on the Internet.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003ePort number\u003c/strong\u003e: Part of the addressing information used to identify the sender/receiver of requests at an IP address (e.g., 43 is the port number with this IP address: 198.185.159.145:43).\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eInternet Service Provider (ISP)\u003c/strong\u003e: A company that provides access to the Internet and assigns an IP address to the connecting device.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eHypertext Transfer Protocol (HTTP)\u003c/strong\u003e: A protocol that defines how requests are formatted, transmitted and processed between web clients and web servers.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eDomain Naming System (DNS) Servers\u003c/strong\u003e: The \"address book\" of the Internet; servers that maintain all domain names and translate them to Internet Protocol (IP) addresses.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eWeb Resource\u003c/strong\u003e: The target of a web address; Examples of web resources include files, documents, images, videos, stylesheets, scripts.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003eAdditional Resources\u003c/h4\u003e\n\u003cp\u003eTo further explore any of these concepts, visit the following articles linked in this lesson:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://en.wikipedia.org/wiki/Client%E2%80%93server_model\"\u003eWeb Server\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://en.wikipedia.org/wiki/Client_(computing)\"\u003eClient\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://en.wikipedia.org/wiki/IP_address\"\u003eIP Address\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://en.wikipedia.org/wiki/Internet_service_provider\"\u003eInternet Service Provider (ISP)\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol\"\u003eHypertext Transfer Protocol (HTTP)\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://en.wikipedia.org/wiki/Domain_Name_System\"\u003eDomain Naming System (DNS)\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003eUniform Resource Locator (URL)\u003c/h4\u003e\n\u003cp\u003eAs we discussed in the previous lesson, when you navigate to http://www.moringaschool.com/, your browser makes a request to a web server. One of the most important parts of that request is the address you're visiting. That address is technically called the\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003eURL\u003c/strong\u003e, short for\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003eUniform Resource Locator\u003c/strong\u003e, or\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003eURI\u003c/strong\u003e, short for\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003eUniform Resource Identifier\u003c/strong\u003e. (The difference is largely semantics.) In this lesson, we'll explore the URL in detail.\u003c/p\u003e\n\u003ch5\u003eRequired URL elements\u003c/h5\u003e\n\u003cp\u003eSome elements must be included in the URL for a request to be successful. Here is an example of a URL.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e http://www.moringaschool.com/about\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eLet us break it down to see each individual element.\u003c/p\u003e\n\u003ch5\u003e1. Scheme\u003c/h5\u003e\n\u003cp\u003eThe\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003escheme\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003edefines how the client locates or acts upon the requested resource. In our example, the client will make a request using the _http://_ scheme. Other schemes include _ftp_, _mailto_, and _file_. The scheme is always followed by a colon; for the http scheme, a colon and two slashes (://).\u003c/p\u003e\n\u003ch5\u003e2. Host\u003c/h5\u003e\n\u003cp\u003eThe\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003ehost\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003eprovides the details of where the requested resource is located. The host in a URL is either the domain name for the IP address or the IP address itself. In our example, the host is _www.moringaschool.com_.\u003c/p\u003e\n\u003ch5\u003e3.Path\u003c/h5\u003e\n\u003cp\u003eThe path consists of one or more segments separated by slashes and provides the name for identifying the resource requested. In our example, the path indicates the resource: _/about_. This directs to the _About_ page of the Moringa school website.\u003c/p\u003e\n\u003ch5\u003eOptional URL elements\u003c/h5\u003e\n\u003cp\u003eNot all elements in a URL are required. Here are two that are optional.\u003c/p\u003e\n\u003ch5\u003e1. ? Query\u003c/h5\u003e\n\u003cp\u003eThere may be times where the URL contents must provide additional details for a resource to be identified.\u003c/p\u003e\n\u003cp\u003eFor example, if we use the search functionality on _https://www.python.org_, the server will need to know the input that we enter in order to know what search results to return. When we enter \"python3\" as our search parameter and press \"Search\", the request is made to this URL: _https://www.python.org/search/?q=python3_\u003c/p\u003e\n\u003cp\u003eAfter the path in the URL, we see a\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003ccode\u003e?\u003c/code\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003esymbol which indicates the beginning of a\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003equery string\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003eYou'll see our search parameter has a\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003ekey\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003eof _search_ and a\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003evalue\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003eof _internet_. Query parameters are separated by the\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003ccode\u003e\u0026amp;\u003c/code\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003esymbol when there is more than one.\u003c/p\u003e\n\u003cp\u003eWith this information, the server will use the value to query the database for only the lessons that have the term \"internet\" in them.\u003c/p\u003e\n\u003ch5\u003e2. # Fragment\u003c/h5\u003e\n\u003cp\u003eAnother optional URL element is called a fragment.\u003c/p\u003e\n\u003cp\u003eHere is an example of a URL containing a fragment:\u003c/p\u003e\n\u003cp\u003e_https://docs.python.org/3.6/tutorial/#the-python-tutorial_\u003c/p\u003e\n\u003cp\u003eFragments begin with a\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003ccode\u003e#\u003c/code\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003esymbol and contain information that's typically processed by the client, rather than the server. In this example, \"the-python-tutorial\" is the id of a div in the HTML document that is returned. The HTML page is extremely long but by adding the fragment, the browser will position the display of the page precisely at that element when displayed.\u003c/p\u003e\n\u003cp\u003eIf you remove the fragment, the position returns to the default top of the document.\u003c/p\u003e\n\u003ch4\u003eTerminology\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eUniform Resource Identifier (URI)/Uniform Resource Locator (URL)\u003c/strong\u003e: The web address which specifies the location of the requested web resources.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eScheme\u003c/strong\u003e: The part of the URL that indicates the protocol to be used in communication (e.g. http://).\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eHost\u003c/strong\u003e: The part of the URL that contains the domain name.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003ePath\u003c/strong\u003e: The part of the URL that contains the resource name.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eQuery string\u003c/strong\u003e: An optional part of a URL that contains parameters for querying a database; begins with the\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003ccode\u003e?\u003c/code\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003esymbol; often used in a search request.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eFragment\u003c/strong\u003e: An optional part of a URL that contains details for where the browser should display the information (e.g. on a particular div).\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003eAdditional Resources\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://en.wikipedia.org/wiki/Uniform_Resource_Locator\"\u003eUniform Resource Locator\u003c/a\u003e\u003c/p\u003e\n\u003ch3\u003eHTTP Requests\u003c/h3\u003e\n\u003cp\u003eLet's take a closer look at HTTP. In this lesson, we'll examine the organization and data of HTTP requests.\u003c/p\u003e\n\u003ch4\u003eHTTP request-response cycle\u003c/h4\u003e\n\u003ch5\u003eClient HTTP Requests\u003c/h5\u003e\n\u003cp\u003eWhen the client triggers a new HTTP request, the request includes four elements that will be sent to the server:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eMethod\u003c/li\u003e\n\u003cli\u003ePath\u003c/li\u003e\n\u003cli\u003eHeaders\u003c/li\u003e\n\u003cli\u003eBody\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch5\u003eHTTP Method\u003c/h5\u003e\n\u003cp\u003eHTTP methods, also known as _verbs_, indicate the kind of action that the client is requesting be done in the server. The two most frequently used methods are the ones that are supported by all browsers:\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003eGET\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003eand\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003ePOST\u003c/strong\u003e. A request with a GET method indicates that a resource is being _retrieved_. A request with a POST method indicates that the resource is being _changed_ - _possibly added_, _updated_ or _deleted_.\u003c/p\u003e\n\u003cp\u003eAn example of a GET request would be when we navigate to the Moringa School immersive page. The client requests the resource at the URL, _http://www.moringaschool.com/_ and the / resource(s) is retrieved.\u003c/p\u003e\n\u003cp\u003eAn example of a POST request would be when we click submit on a form to add our email to a mailing list. The message would post data to the server by adding our information to the mailing list resource.\u003c/p\u003e\n\u003ch5\u003ePath\u003c/h5\u003e\n\u003cp\u003eThe path identifies the web resource that should be retrieved (GET) or acted upon (POST). In our example, _http://www.moringaschool.com/_, the resource _/immersive_ is known as the path.\u003c/p\u003e\n\u003ch5\u003eHeaders\u003c/h5\u003e\n\u003cp\u003eRequest headers are part of the request message protocol and provide the server with more information about the client, the server and the request.\u003c/p\u003e\n\u003cp\u003eHere are some examples of header fields that are included in a request message:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eHost: This is the host or domain name of the server. In our example: www.moringaschool.com.\u003c/li\u003e\n\u003cli\u003eUser-agent: This is the software acting on behalf of the user to make the request; in our example, this would be our browser (Chrome, Firefox, etc)\u003c/li\u003e\n\u003cli\u003eAccept-language: This includes the human languages that are acceptable for the response.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch5\u003eBody\u003c/h5\u003e\n\u003cp\u003eThe body contains data beyond the contents of the URL and headers that needs to be transmitted to the server. For example, if a user submits a form with data, the resulting POST request would need to include all of the data inputted so the server could store the information. This data is delivered in the body of the request.\u003c/p\u003e\n\u003ch4\u003eTerminology\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eHTTP Method\u003c/strong\u003e: The kind of action that the client is requesting to be done in the web server, also known as a verb. Most frequently used HTTP methods: GET and POST.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eGET\u003c/strong\u003e: A request method that retrieves information from the server but does not change anything on the server. Example: request to see a homepage for a site.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003ePOST\u003c/strong\u003e: A request method that acts upon the resource by adding, updating or deleting information on the server. Example: submitting a form to join a mailing list which adds your name to the list.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eHTTP Request Header\u003c/strong\u003e: The first lines of an HTTP request message that include information about the client, server and the request.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eHTTP Request Body\u003c/strong\u003e: Data that needs to be transmitted to the server in the HTTP request message (like data from a submitted form).\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003eAdditional Resources\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://en.wikipedia.org/wiki/List_of_HTTP_header_fields\"\u003eList of all HTTP Header Fields\u003c/a\u003e\u003c/p\u003e\n\u003ch4\u003eHTTP Responses\u003c/h4\u003e\n\u003cp\u003eAfter a server receives an HTTP request, it will respond with a message that consists of the following three elements:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eStatus\u003c/li\u003e\n\u003cli\u003eHeaders\u003c/li\u003e\n\u003cli\u003eBody\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch5\u003eStatus\u003c/h5\u003e\n\u003cp\u003eThe first line of a response message is the status which includes a status code and reason phrase. The HTTP status code is a three-digit number that indicates how the request was processed (or not). Each code is also accompanied by a reason phrase which is not read by the client but is intended for humans to provide a brief description of the status code.\u003c/p\u003e\n\u003cp\u003eBelow is a list of the five status code classes determined by the first digit of the code. This lesson shows the most common codes. To see a complete list, visit HTTP Status Codes.\u003c/p\u003e\n\u003ch5\u003e1xx Informational\u003c/h5\u003e\n\u003cp\u003eStatus codes beginning with 1 indicate the request was received. This class of code is rarely used.\u003c/p\u003e\n\u003ch5\u003e2xx Success\u003c/h5\u003e\n\u003cp\u003eStatus codes beginning with 2 indicate the request was received and handled successfully.\u003c/p\u003e\n\u003cp\u003eExamples\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e200\u003c/strong\u003e: OK\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e201\u003c/strong\u003e: Created\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch5\u003e3xx Redirection\u003c/h5\u003e\n\u003cp\u003eStatus codes beginning with 3 indicate that additional action is required to complete processing the request.\u003c/p\u003e\n\u003cp\u003eExamples\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e301\u003c/strong\u003e: Moved permanently\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e302\u003c/strong\u003e: Moved temporarily\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch5\u003e4xx Client errors\u003c/h5\u003e\n\u003cp\u003eStatus codes beginning with 4 indicate that something was wrong about the request.\u003c/p\u003e\n\u003cp\u003eExamples\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e400\u003c/strong\u003e: Bad Request (the request used invalid syntax)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e401\u003c/strong\u003e: Unauthorized (you have to log in)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e403\u003c/strong\u003e: Forbidden (you're logged in, but not allowed to make this request)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e404\u003c/strong\u003e: Not Found\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e422\u003c/strong\u003e: Unprocessable (the request had valid syntax but the instructions it contained were invalid)\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch5\u003e5xx Server errors\u003c/h5\u003e\n\u003cp\u003eStatus codes beginning with 5 indicate that something went wrong on the server side, such as a bug in the code or a server that went down.\u003c/p\u003e\n\u003cp\u003eExamples\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e500\u003c/strong\u003e: Internal Server Error (usually a bug in the server code)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e502\u003c/strong\u003e: Bad Gateway (the server sent the request to another server and got an invalid response)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e503\u003c/strong\u003e: Service Unavailable (the server is overloaded or down for maintenance)\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch5\u003eHeaders\u003c/h5\u003e\n\u003cp\u003eLike request headers, response headers include additional protocol providing more details about the HTTP response.\u003c/p\u003e\n\u003cp\u003eSome examples of response header fields include:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eServer: The name of the server where the response is coming from.\u003c/li\u003e\n\u003cli\u003eContent-Language: The human language(s) of the content.\u003c/li\u003e\n\u003cli\u003eContent-Length: How long the response body is in 8-bit bytes.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch5\u003eBody\u003c/h5\u003e\n\u003cp\u003eThe response body includes all of the content for the resource requested. You'll often hear it referred to as the\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003epayload\u003c/strong\u003e. When we issue a GET request for _http://www.moringaschool.com/_, we expect the body to include an HTML document with the table of contents. This resource may need additional resources such as images, CSS, script files, etc. For each resource, a new request is made by the client and a new response is issued for the resource from the server.\u003c/p\u003e\n\u003cp\u003eOnce there is a response to all of the requests, the / resource is displayed in the browser.\u003c/p\u003e\n\u003ch4\u003eTerminology\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eStatus code\u003c/strong\u003e: First line of the response message from the server consisting of a three-digit number indicating the status of the request. Example: 200 indicates that the request was successfully processed.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eStatus reason\u003c/strong\u003e: The human language interpretation of the status code, not read by the client but intended for humans.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003ePayload\u003c/strong\u003e: The data that was requested in the original request message that is not protocol. Example: the payload for a request for the main page of a website would be the actual HTML document content.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003eOverview\u003c/h4\u003e\n\u003cp\u003eStatus Codes\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003e1xx\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003eInformational\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e2xx\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003eSuccess\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e3xx\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003eRedirection\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e4xx\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003eClient errors\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e5xx\u003c/strong\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003eServer errors\u003c/p\u003e\n\u003cp\u003eAdditional Resources Complete List of HTTP Status Codes may be found\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003ca href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Response_codes\"\u003ehere\u003c/a\u003e.\u003c/p\u003e\n\u003ch2\u003eSetting up Flask\u003c/h2\u003e\n\u003cp\u003eThe most convenient way to install Flask is using a\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003evirtual environment\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003eA virtual environment is a private copy of the Python interpreter that allows us to install packages privately. This means all the third party modules will only be available in that environment. This is very useful because it prevents the packages from cluttering our system and also prevents conflicts.\u003c/p\u003e\n\u003ch3\u003eCreating a Virtual Environment.\u003c/h3\u003e\n\u003cp\u003eLet us create a simple\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003ccode\u003eHello World\u003c/code\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003eapplication.\u003c/p\u003e\n\u003cp\u003eCreate a new directory and name it\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003cem\u003eHello-Flask\u003c/em\u003e. Inside it let us create a new virtual environment for our application so that we can install Flask.\u003cspan style=\"font-size: 1rem;\"\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003ePython3.6 comes with a tool called\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003ccode\u003evenv\u003c/code\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003ethat allows us to create a virtual environments.\u003c/p\u003e\n\u003cdiv class=\"codehilite\"\u003e\n\u003cpre\u003e\u003cspan\u003e\u003c/span\u003e\u003ccode\u003e$ python3.6 -m venv --without-pip virtual\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/div\u003e\n\u003cp\u003eAbove we used the tool to create a virtual environment and called it\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003ccode\u003evirtual\u003c/code\u003e. We can give our virtual environment any name provided it is easy to remember.\u003c/p\u003e\n\u003ch4\u003eActivating and Deactivating the virtual environment\u003c/h4\u003e\n\u003cp\u003eTo activate the virtual environment we run the following command:\u003c/p\u003e\n\u003cdiv class=\"codehilite\"\u003e\n\u003cpre\u003e\u003cspan\u003e\u003c/span\u003e\u003ccode\u003e$ \u003cspan class=\"nb\"\u003esource\u003c/span\u003e virtual/bin/activate\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/div\u003e\n\u003cp\u003eWe know the virtual environment is active when the terminal responds with the name of your virtual environment before your computer's name. For the name\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003ccode\u003evirtual\u003c/code\u003e, the terminal would return this:\u003c/p\u003e\n\u003cdiv class=\"codehilite\"\u003e\n\u003cpre\u003e\u003cspan\u003e\u003c/span\u003e\u003ccode\u003e\u003cspan class=\"o\"\u003e(\u003c/span\u003evirtual\u003cspan class=\"o\"\u003e)\u003c/span\u003e james@james-P43SJ:~/Desktop/exerciseFiles/Hello-Flask$\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/div\u003e\n\u003cp\u003eNext, we are going to download the latest version of pip in virtual our environment. We will be using pip to install flask and any other packages that we will need.\u003c/p\u003e\n\u003cdiv class=\"codehilite\"\u003e\n\u003cpre\u003e\u003cspan\u003e\u003c/span\u003e\u003ccode\u003e$ curl https://bootstrap.pypa.io/get-pip.py | python\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eTo deactivate we simply use the\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003ccode\u003edeactivate\u003c/code\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003ekeyword\u003c/p\u003e\n\u003cdiv class=\"codehilite\"\u003e\n\u003cpre\u003e\u003cspan\u003e\u003c/span\u003e\u003ccode\u003e\u003cspan class=\"o\"\u003e(\u003c/span\u003evirtual\u003cspan class=\"o\"\u003e)\u003c/span\u003e james@james-P43SJ:~/Desktop/exerciseFiles/Hello-Flask $ deactivate\n\njames@james-P43SJ:~/Desktop/exerciseFiles/Hello-Flask $\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/div\u003e\n\u003ch4\u003eInstalling Flask\u003c/h4\u003e\n\u003cp\u003eLet us first get back to our virtual environment with the\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003ccode\u003esource virtual/bin/activate\u003c/code\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003ecommand.\u003c/p\u003e\n\u003cdiv class=\"codehilite\"\u003e\n\u003cpre\u003e\u003cspan\u003e\u003c/span\u003e\u003ccode\u003e$ \u003cspan class=\"nb\"\u003esource\u003c/span\u003e virtual/bin/activate\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/div\u003e\n\u003cp\u003eNow, in the virtual environment, we will install Flask to the project using the following command:\u003c/p\u003e\n\u003cdiv class=\"codehilite\"\u003e\n\u003cpre\u003e\u003cspan\u003e\u003c/span\u003e\u003ccode\u003e$ pip install flask\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/div\u003e\n\u003cp\u003eHere we use the pip tool to install Flask to our project. In the next lesson, we will create a basic Flask application that displays\u003cspan\u003e\u0026nbsp;\u003c/span\u003e\u003ccode\u003eHello World\u003c/code\u003e\u003cspan\u003e\u0026nbsp;\u003c/span\u003eto the browser.\u003c/p\u003e\n\u003c/div\u003e"},"WIKI_PAGE_REVISION":"1","WIKI_PAGE_SHOW_PATH":"/courses/448/pages/weekend-welcome-to-flask-the-internet-virtual-environment","WIKI_PAGE_EDIT_PATH":"/courses/448/pages/weekend-welcome-to-flask-the-internet-virtual-environment/edit","WIKI_PAGE_HISTORY_PATH":"/courses/448/pages/weekend-welcome-to-flask-the-internet-virtual-environment/revisions","COURSE_ID":"448","MODULES_PATH":"/courses/448/modules","wiki_page_menu_tools":[],"wiki_index_menu_tools":[],"DISPLAY_SHOW_ALL_LINK":false,"CAN_SET_TODO_DATE":false,"badge_counts":{"submissions":0},"notices":[],"active_context_tab":"pages"};
+    BRANDABLE_CSS_HANDLEBARS_INDEX = [["new_styles_normal_contrast","new_styles_high_contrast","responsive_layout_normal_contrast","responsive_layout_high_contrast","new_styles_normal_contrast_rtl","new_styles_high_contrast_rtl","responsive_layout_normal_contrast_rtl","responsive_layout_high_contrast_rtl"],{"10":["5bbee90ed9",0,0,0,"f8054b5691",4,4,4],"15":["fc26aa5fd4",0,0,0,"f904416063",4,4,4],"19":["df5777ed9c"],"61":["c34731ada0","f405852bb2",0,1,"a4eda69452","3fd9943b9a",4,5],"64":["6d90a3d213",0,0,0,"cace9d4281",4,4,4],"67":["8b57f54e71",0,0,0,"43833dde85",4,4,4],"71":["dca6322676","3128a2cc3b",0,1,"1b8a1b5af4","851e44943d",4,5],"06":["4526e0502d",0,0,0,"4ca4dedba8",4,4,4],"f0":["7c947dce20",0,0,0,0,0,0,0],"c8":["ce38e5e01d","b9068fb85c",0,1,"abe25b43ac","891d385c6e",4,5],"1e":["a4ce6b99b5","39d2986ce0","93968ae330","541e45feba","e12dd92511","ba63dd3b58","8594db4d82","e291bb53e9"],"b3":["8ebc71ebc3","cf8efa05c8",0,1,"4efdc93a21","fd6d3a9780",4,5],"4f":["0a2c3dcf2f",0,0,0,"79668e6396",4,4,4],"0c":["c26e82abac",0,0,0,"b71e9cbd6d",4,4,4],"da":["b218c8c3f2","edbd1b5e83",0,1,"312312508c","dfb2d13098",4,5],"1d":["a3bfcb7961",0,0,0,"90682b3bbe",4,4,4],"08":["64bff5a97d"],"e2":["11429f119a"],"9f":["35936a18c3",0,0,0,0,0,0,0],"2b":["87b3ec4aa1",0,0,0,"39522697fb",4,4,4],"2c":["6d919206cd",0,0,0,0,0,0,0],"c2":["6f2721ae01"],"9c":["ecafc938e4",0,0,0,"59e7c22304",4,4,4],"6f":["363cd4d36b",0,0,0,0,0,0,0],"c5":["ebf0e1382f","7f587d9a8a",0,1,"afbdabf23d","0d398196a8",4,5],"f2":["51574f9b13"]}]
+;
+  </script>
+
+  <link rel="preload" href="./fl18_files/variables-8391c84da435c9cfceea2b2b3317ff66.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/Nairobi-ab431c0929.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/Nairobi-ab431c0929.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/en_GB-31745e04c9.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/en-gb-c-c7b9246cab.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/main-e-deba862062.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+
+      ;["https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/b5f0573040e8649cf4cc5fc40f5957de/variables-8391c84da435c9cfceea2b2b3317ff66.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/Africa/Nairobi-ab431c0929.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/Africa/Nairobi-ab431c0929.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/en_GB-31745e04c9.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/moment/locale/en-gb-c-c7b9246cab.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/main-e-deba862062.js"].forEach(function(src) {
+        var s = document.createElement('script')
+        s.src = src
+        s.async = false
+        document.head.appendChild(s)
+      });
+//]]>
+</script><script src="./fl18_files/variables-8391c84da435c9cfceea2b2b3317ff66.js"></script><script src="./fl18_files/Nairobi-ab431c0929.js"></script><script src="./fl18_files/Nairobi-ab431c0929.js"></script><script src="./fl18_files/en_GB-31745e04c9.js"></script><script src="./fl18_files/en-gb-c-c7b9246cab.js"></script><script src="./fl18_files/main-e-deba862062.js"></script><link rel="preload" href="./fl18_files/0-c-d122efd52f.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/1-c-3b35301a94.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/2-c-d3eede0f8d.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/3-c-5d745b6aaa.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/4-c-e30a14ede8.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/5-c-6aa506df4f.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/6-c-1e1359c836.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/7-c-50566439b2.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/8-c-1de49f5daa.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/12-c-8e44d6013e.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/18-c-5802a4b12c.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/17-c-f853e81c20.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/22-c-90d46f84ca.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/27-c-77a1bbb478.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/30-c-957da7f976.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/32-c-5a482fa1e6.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/33-c-9f2b8d1bac.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/39-c-15d2cdb6af.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/37-c-547e6ea99d.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/41-c-da10155ccb.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/46-c-4c0eb2055d.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/45-c-8759630105.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/49-c-616658cd53.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/47-c-d27f10a861.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/59-c-dc01c5c5b9.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/62-c-2b5ffe60c5.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/65-c-3a03d69e15.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/80-c-491d727af3.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/84-c-c73777ec6f.js" as="script" type="text/javascript"><link rel="preload" href="./fl18_files/wiki_page_show-c-9b3ab880e6.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('wiki_page_show');
+(window.bundles || (window.bundles = [])).push('navigation_header');
+//]]>
+</script>
+  <title>Weekend: Welcome to Flask; The Internet Virtual Environment: SD Core 45 Flask Remote</title>
+  
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', "UA-9138420-1", 'auto');
+      ga('set', 'userId', "88df3d2745977bba7b8386c486ec8657");
+    ga('set', 'dimension1', "100");
+    ga('set', 'dimension2', "00");
+    ga('set', 'dimension3', "0");
+    ga('set', 'dimension4', "Higher Ed");
+    ga('send', 'pageview');
+    (window.requestIdleCallback || window.setTimeout)(function(){
+      var s=document.createElement('script'), m=document.getElementsByTagName('script')[0]
+      s.async=1; s.src='https://www.google-analytics.com/analytics.js'
+      m.parentNode.insertBefore(s,m)
+    });
+  </script>
+
+
+
+<script src="./fl18_files/sth.js"></script><style type="text/css"></style><script charset="utf-8" src="./fl18_files/0-c-d122efd52f.js"></script><script charset="utf-8" src="./fl18_files/1-c-3b35301a94.js"></script><script charset="utf-8" src="./fl18_files/2-c-d3eede0f8d.js"></script><script charset="utf-8" src="./fl18_files/3-c-5d745b6aaa.js"></script><script charset="utf-8" src="./fl18_files/4-c-e30a14ede8.js"></script><script charset="utf-8" src="./fl18_files/5-c-6aa506df4f.js"></script><script charset="utf-8" src="./fl18_files/6-c-1e1359c836.js"></script><script charset="utf-8" src="./fl18_files/7-c-50566439b2.js"></script><script charset="utf-8" src="./fl18_files/8-c-1de49f5daa.js"></script><script charset="utf-8" src="./fl18_files/12-c-8e44d6013e.js"></script><script charset="utf-8" src="./fl18_files/18-c-5802a4b12c.js"></script><script charset="utf-8" src="./fl18_files/17-c-f853e81c20.js"></script><script charset="utf-8" src="./fl18_files/22-c-90d46f84ca.js"></script><script charset="utf-8" src="./fl18_files/27-c-77a1bbb478.js"></script><script charset="utf-8" src="./fl18_files/30-c-957da7f976.js"></script><script charset="utf-8" src="./fl18_files/32-c-5a482fa1e6.js"></script><script charset="utf-8" src="./fl18_files/33-c-9f2b8d1bac.js"></script><script charset="utf-8" src="./fl18_files/39-c-15d2cdb6af.js"></script><script charset="utf-8" src="./fl18_files/37-c-547e6ea99d.js"></script><script charset="utf-8" src="./fl18_files/41-c-da10155ccb.js"></script><script charset="utf-8" src="./fl18_files/46-c-4c0eb2055d.js"></script><script charset="utf-8" src="./fl18_files/45-c-8759630105.js"></script><script charset="utf-8" src="./fl18_files/49-c-616658cd53.js"></script><script charset="utf-8" src="./fl18_files/47-c-d27f10a861.js"></script><script charset="utf-8" src="./fl18_files/59-c-dc01c5c5b9.js"></script><script charset="utf-8" src="./fl18_files/62-c-2b5ffe60c5.js"></script><script charset="utf-8" src="./fl18_files/65-c-3a03d69e15.js"></script><script charset="utf-8" src="./fl18_files/80-c-491d727af3.js"></script><script charset="utf-8" src="./fl18_files/84-c-c73777ec6f.js"></script><script charset="utf-8" src="./fl18_files/wiki_page_show-c-9b3ab880e6.js"></script><script charset="utf-8" src="./fl18_files/inst_fs_service_worker-c-45cd13f265.js"></script><script charset="utf-8" src="./fl18_files/4107-c-fc094bc328.js"></script><script charset="utf-8" src="./fl18_files/4040-c-abbc9a7bf2.js"></script><style type="text/css" data-glamor=""></style><script charset="utf-8" src="./fl18_files/14-c-89932b56a2.js"></script><script charset="utf-8" src="./fl18_files/21-c-8ca8ad475e.js"></script><script charset="utf-8" src="./fl18_files/23-c-a26d41249b.js"></script><script charset="utf-8" src="./fl18_files/25-c-6c69c308fe.js"></script><script charset="utf-8" src="./fl18_files/31-c-f9e5792f22.js"></script><script charset="utf-8" src="./fl18_files/44-c-84e08ce0fa.js"></script><script charset="utf-8" src="./fl18_files/77-c-cabae41b59.js"></script><script charset="utf-8" src="./fl18_files/103-c-a3471c16cf.js"></script><script charset="utf-8" src="./fl18_files/3619-c-240c9c039d.js"></script><script charset="utf-8" src="./fl18_files/4106-c-508ab6be12.js"></script><style type="text/css">.mejs-offscreen{clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);clip-path:polygon(0px 0,0 0,0 0,0 0);position:absolute!important;height:1px;width:1px;overflow:hidden}.mejs-container{position:relative;background:#000;font-family:Helvetica,Arial,serif;text-align:left;vertical-align:top;text-indent:0}.mejs-fill-container,.mejs-fill-container .mejs-container{width:100%;height:100%}.mejs-fill-container{overflow:hidden}.mejs-container:focus{outline:0}.me-plugin{position:absolute}.mejs-embed,.mejs-embed body{width:100%;height:100%;margin:0;padding:0;background:#000;overflow:hidden}.mejs-fullscreen{overflow:hidden!important}.mejs-container-fullscreen{position:fixed;left:0;top:0;right:0;bottom:0;overflow:hidden;z-index:1000}.mejs-container-fullscreen .mejs-mediaelement,.mejs-container-fullscreen video{width:100%;height:100%}.mejs-clear{clear:both}.mejs-background{position:absolute;top:0;left:0}.mejs-mediaelement{position:absolute;top:0;left:0;width:100%;height:100%}.mejs-poster{position:absolute;top:0;left:0;background-size:contain;background-position:50% 50%;background-repeat:no-repeat}:root .mejs-poster img{display:none}.mejs-poster img{border:0;padding:0}.mejs-overlay{position:absolute;top:0;left:0}.mejs-overlay-play{cursor:pointer}.mejs-overlay-button{position:absolute;top:50%;left:50%;width:100px;height:100px;margin:-50px 0 0 -50px;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/746c3af7a145a09239a36e5ef61cfea0.svg) no-repeat}.no-svg .mejs-overlay-button{background-image:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/716436fb3df0d29e6b37dd62d952676a.png)}.mejs-overlay:hover .mejs-overlay-button{background-position:0 -100px}.mejs-overlay-loading{position:absolute;top:50%;left:50%;width:80px;height:80px;margin:-40px 0 0 -40px;background:#333;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(0,0,0,.9);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.9)),to(rgba(0,0,0,.9)));background:-webkit-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-moz-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-o-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-ms-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:linear-gradient(rgba(50,50,50,.9),rgba(0,0,0,.9))}.mejs-overlay-loading span{display:block;width:80px;height:80px;background:transparent url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/76b326f4d44222126fee21076595bef5.gif) 50% 50% no-repeat}.mejs-container .mejs-controls{position:absolute;list-style-type:none;margin:0;padding:0;bottom:0;left:0;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(0,0,0,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.7)),to(rgba(0,0,0,.7)));background:-webkit-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-moz-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-o-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-ms-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:linear-gradient(rgba(50,50,50,.7),rgba(0,0,0,.7));height:30px;width:100%}.mejs-container .mejs-controls div{list-style-type:none;background-image:none;display:block;float:left;margin:0;padding:0;width:26px;height:26px;font-size:11px;line-height:11px;font-family:Helvetica,Arial,serif;border:0}.mejs-controls .mejs-button button{cursor:pointer;display:block;font-size:0;line-height:0;text-decoration:none;margin:7px 5px;padding:0;position:absolute;height:16px;width:16px;border:0;background:transparent url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/40f56f5a736da4effeb790cedb8a52f0.svg) no-repeat}.no-svg .mejs-controls .mejs-button button{background-image:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/24a0227fbdd3acfd86ff03fc3fc6c8a4.png)}.mejs-controls .mejs-button button:focus{outline:dotted 1px #999}.mejs-container .mejs-controls .mejs-time{color:#fff;display:block;height:17px;width:auto;padding:10px 3px 0;overflow:hidden;text-align:center;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}.mejs-container .mejs-controls .mejs-time a{color:#fff;font-size:11px;line-height:12px;display:block;float:left;margin:1px 2px 0 0;width:auto}.mejs-controls .mejs-play button{background-position:0 0}.mejs-controls .mejs-pause button{background-position:0 -16px}.mejs-controls .mejs-stop button{background-position:-112px 0}.mejs-controls div.mejs-time-rail{direction:ltr;width:200px;padding-top:5px}.mejs-controls .mejs-time-rail span,.mejs-controls .mejs-time-rail a{display:block;position:absolute;width:180px;height:10px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;cursor:pointer}.mejs-controls .mejs-time-rail .mejs-time-total{margin:5px;background:#333;background:rgba(50,50,50,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(30,30,30,.8)),to(rgba(60,60,60,.8)));background:-webkit-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-moz-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-o-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-ms-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:linear-gradient(rgba(30,30,30,.8),rgba(60,60,60,.8))}.mejs-controls .mejs-time-rail .mejs-time-buffering{width:100%;background-image:-o-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,.15)),color-stop(0.75,rgba(255,255,255,.15)),color-stop(0.75,transparent),to(transparent));background-image:-webkit-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-moz-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-ms-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);-webkit-background-size:15px 15px;-moz-background-size:15px 15px;-o-background-size:15px 15px;background-size:15px 15px;-webkit-animation:buffering-stripes 2s linear infinite;-moz-animation:buffering-stripes 2s linear infinite;-ms-animation:buffering-stripes 2s linear infinite;-o-animation:buffering-stripes 2s linear infinite;animation:buffering-stripes 2s linear infinite}@-webkit-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-moz-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-ms-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-o-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}.mejs-controls .mejs-time-rail .mejs-time-loaded{background:#3caac8;background:rgba(60,170,200,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(44,124,145,.8)),to(rgba(78,183,212,.8)));background:-webkit-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-moz-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-o-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-ms-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:linear-gradient(rgba(44,124,145,.8),rgba(78,183,212,.8));width:0}.mejs-controls .mejs-time-rail .mejs-time-current{background:#fff;background:rgba(255,255,255,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(255,255,255,.9)),to(rgba(200,200,200,.8)));background:-webkit-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-moz-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-o-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-ms-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:linear-gradient(rgba(255,255,255,.9),rgba(200,200,200,.8));width:0}.mejs-controls .mejs-time-rail .mejs-time-handle{display:none;position:absolute;margin:0;width:10px;background:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;cursor:pointer;border:solid 2px #333;top:-2px;text-align:center}.mejs-controls .mejs-time-rail .mejs-time-float{position:absolute;display:none;background:#eee;width:36px;height:17px;border:solid 1px #333;top:-26px;margin-left:-18px;text-align:center;color:#111}.mejs-controls .mejs-time-rail .mejs-time-float-current{margin:2px;width:30px;display:block;text-align:center;left:0}.mejs-controls .mejs-time-rail .mejs-time-float-corner{position:absolute;display:block;width:0;height:0;line-height:0;border:solid 5px #eee;border-color:#eee transparent transparent;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;top:15px;left:13px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float{width:48px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-current{width:44px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-corner{left:18px}.mejs-controls .mejs-fullscreen-button button{background-position:-32px 0}.mejs-controls .mejs-unfullscreen button{background-position:-32px -16px}.mejs-controls .mejs-volume-button{}.mejs-controls .mejs-mute button{background-position:-16px -16px}.mejs-controls .mejs-unmute button{background-position:-16px 0}.mejs-controls .mejs-volume-button{position:relative}.mejs-controls .mejs-volume-button .mejs-volume-slider{height:115px;width:25px;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;top:-115px;left:0;z-index:1;position:absolute;margin:0}.mejs-controls .mejs-volume-button:hover{-webkit-border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-total{position:absolute;left:11px;top:8px;width:2px;height:100px;background:#ddd;background:rgba(255,255,255,.5);margin:0}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current{position:absolute;left:11px;top:8px;width:2px;height:100px;background:#ddd;background:rgba(255,255,255,.9);margin:0}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-handle{position:absolute;left:4px;top:-3px;width:16px;height:6px;background:#ddd;background:rgba(255,255,255,.9);cursor:N-resize;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;margin:0}.mejs-controls a.mejs-horizontal-volume-slider{height:26px;width:56px;position:relative;display:block;float:left;vertical-align:middle}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total{position:absolute;left:0;top:11px;width:50px;height:8px;margin:0;padding:0;font-size:1px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;background:#333;background:rgba(50,50,50,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(30,30,30,.8)),to(rgba(60,60,60,.8)));background:-webkit-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-moz-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-o-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-ms-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:linear-gradient(rgba(30,30,30,.8),rgba(60,60,60,.8))}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current{position:absolute;left:0;top:11px;width:50px;height:8px;margin:0;padding:0;font-size:1px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;background:#fff;background:rgba(255,255,255,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(255,255,255,.9)),to(rgba(200,200,200,.8)));background:-webkit-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-moz-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-o-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-ms-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:linear-gradient(rgba(255,255,255,.9),rgba(200,200,200,.8))}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle{display:none}.mejs-controls .mejs-captions-button{position:relative}.mejs-controls .mejs-captions-button button{background-position:-48px 0}.mejs-controls .mejs-captions-button .mejs-captions-selector{position:absolute;bottom:26px;right:-51px;width:85px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:10px 10px 0;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-captions-button .mejs-captions-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li{margin:0 0 6px;padding:0;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li label{width:55px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:10px}.mejs-controls .mejs-captions-button .mejs-captions-translations{font-size:10px;margin:0 0 5px}.mejs-chapters{position:absolute;top:0;left:0;border-right:solid 1px #fff;width:10000px;z-index:1}.mejs-chapters .mejs-chapter{position:absolute;float:left;background:#222;background:rgba(0,0,0,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.7)),to(rgba(0,0,0,.7)));background:-webkit-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-moz-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-o-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-ms-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:linear-gradient(rgba(50,50,50,.7),rgba(0,0,0,.7));filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr=#323232, endColorstr=#000000);overflow:hidden;border:0}.mejs-chapters .mejs-chapter .mejs-chapter-block{font-size:11px;color:#fff;padding:5px;display:block;border-right:solid 1px #333;border-bottom:solid 1px #333;cursor:pointer}.mejs-chapters .mejs-chapter .mejs-chapter-block-last{border-right:0}.mejs-chapters .mejs-chapter .mejs-chapter-block:hover{background:#666;background:rgba(102,102,102,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(102,102,102,.7)),to(rgba(50,50,50,.6)));background:-webkit-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-moz-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-o-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-ms-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:linear-gradient(rgba(102,102,102,.7),rgba(50,50,50,.6));filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr=#666666, endColorstr=#323232)}.mejs-chapters .mejs-chapter .mejs-chapter-block .ch-title{font-size:12px;font-weight:700;display:block;white-space:nowrap;text-overflow:ellipsis;margin:0 0 3px;line-height:12px}.mejs-chapters .mejs-chapter .mejs-chapter-block .ch-timespan{font-size:12px;line-height:12px;margin:3px 0 4px;display:block;white-space:nowrap;text-overflow:ellipsis}.mejs-captions-layer{position:absolute;bottom:0;left:0;text-align:center;line-height:20px;font-size:16px;color:#fff}.mejs-captions-layer a{color:#fff;text-decoration:underline}.mejs-captions-layer[lang=ar]{font-size:20px;font-weight:400}.mejs-captions-position{position:absolute;width:100%;bottom:15px;left:0}.mejs-captions-position-hover{bottom:35px}.mejs-captions-text,.mejs__captions-text *{padding:0;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(20,20,20,.5);white-space:pre-wrap;-webkit-box-shadow:5px 0 0 rgba(20,20,20,.5),-5px 0 0 rgba(20,20,20,.5);box-shadow:5px 0 0 rgba(20,20,20,.5),-5px 0 0 rgba(20,20,20,.5)}.me-cannotplay{}.me-cannotplay a{color:#fff;font-weight:700}.me-cannotplay span{padding:15px;display:block}.mejs-controls .mejs-loop-off button{background-position:-64px -16px}.mejs-controls .mejs-loop-on button{background-position:-64px 0}.mejs-controls .mejs-backlight-off button{background-position:-80px -16px}.mejs-controls .mejs-backlight-on button{background-position:-80px 0}.mejs-controls .mejs-picturecontrols-button{background-position:-96px 0}.mejs-contextmenu{position:absolute;width:150px;padding:10px;border-radius:4px;top:0;left:0;background:#fff;border:solid 1px #999;z-index:1001}.mejs-contextmenu .mejs-contextmenu-separator{height:1px;font-size:0;margin:5px 6px;background:#333}.mejs-contextmenu .mejs-contextmenu-item{font-family:Helvetica,Arial,serif;font-size:12px;padding:4px 6px;cursor:pointer;color:#333}.mejs-contextmenu .mejs-contextmenu-item:hover{background:#2C7C91;color:#fff}.mejs-controls .mejs-sourcechooser-button{position:relative}.mejs-controls .mejs-sourcechooser-button button{background-position:-128px 0}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector{position:absolute;bottom:26px;right:-10px;width:130px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:10px;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li{margin:0 0 6px;padding:0;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li label{width:100px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:10px}.mejs-postroll-layer{position:absolute;bottom:0;left:0;width:100%;height:100%;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);z-index:1000;overflow:hidden}.mejs-postroll-layer-content{width:100%;height:100%}.mejs-postroll-close{position:absolute;right:0;top:0;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);color:#fff;padding:4px;z-index:100;cursor:pointer}div.mejs-speed-button{width:46px!important;position:relative}.mejs-controls .mejs-button.mejs-speed-button button{background:transparent;width:36px;font-size:11px;line-height:normal;color:#fff}.mejs-controls .mejs-speed-button .mejs-speed-selector{position:absolute;top:-100px;left:-10px;width:60px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:0;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li label.mejs-speed-selected{color:rgba(33,248,248,1)}.mejs-controls .mejs-speed-button .mejs-speed-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li{margin:0 0 6px;padding:0 10px;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li label{width:60px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:11px;color:#fff;margin-left:5px;cursor:pointer}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li:hover{background-color:#c8c8c8!important;background-color:rgba(255,255,255,.4)!important}.mejs-controls .mejs-button.mejs-jump-forward-button{background:transparent url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/15e1ac8cbacc2efdf1ac2677de48a253.png) no-repeat 3px 3px}.mejs-controls .mejs-button.mejs-jump-forward-button button{background:transparent;font-size:9px;line-height:normal;color:#fff}.mejs-controls .mejs-button.mejs-skip-back-button{background:transparent url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/cd6dc830eb45b3a5a96bbc936ff54846.png) no-repeat 3px 3px}.mejs-controls .mejs-button.mejs-skip-back-button button{background:transparent;font-size:9px;line-height:normal;color:#fff}</style><style type="text/css">/*
+ * Copyright (C) 2014 - present Instructure, Inc.
+ *
+ * This file is part of Canvas.
+ *
+ * Canvas is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License as published by the Free
+ * Software Foundation, version 3 of the License.
+ *
+ * Canvas is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along
+ * with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* customizations to mediaelementplayer css */
+
+/*
+  Because this file is not proccessed by our brandable_css sass pipeline,
+  it cannot use our sass-direction helpers. So we have to handle RTL manually
+  by putting direction-specific styles in [dir="ltr"] or [dir="rtl"] blocks.
+*/
+/* stylelint-disable property-disallowed-list, declaration-property-value-disallowed-list */
+
+/* good menu widths */
+.mejs-sourcechooser-selector {
+  width: 160px;
+}
+.mejs-sourcechooser-selector label {
+  width: 160px !important;
+}
+
+.mejs-captions-selector {
+  width: 105px;
+}
+[dir="ltr"]  .mejs-captions-selector { text-align: left }
+[dir="rtl"]  .mejs-captions-selector { text-align: right }
+
+.mejs-captions-selector label {
+  width: 70px !important;
+}
+
+/* Subtitile upload link */
+.mejs-captions-selector .upload-track {
+  color: white;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+[dir="ltr"] .mejs-captions-selector .upload-track {
+  margin-right: 0px;
+  margin-left: 5px;
+  float: left;
+}
+[dir="rtl"] .mejs-captions-selector .upload-track {
+  margin-left: 0px;
+  margin-right: 5px;
+  float: right;
+}
+
+/* "x" button to remove a subtitle */
+.mejs-captions-selector a[data-remove] {
+  position: absolute;
+  top: 0;
+  color: white;
+}
+[dir="ltr"] .mejs-captions-selector a[data-remove] { right: 0 }
+[dir="rtl"] .mejs-captions-selector a[data-remove] { left: 0 }
+
+
+/* style menu items without a radio button */
+.mejs-button [role="menu"] {
+  padding: 0 !important;
+}
+ /* compensate for above 0 padding */
+ .mejs-button [role="menu"] ul li {
+  position: relative;
+  padding: 0 10px !important;
+}
+/* add a hover effect */
+.mejs-button [role="menu"] ul li:hover {
+  background-color: #c8c8c8 !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.mejs-button [role="menu"] ul li input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+.mejs-button [role="menu"] ul li label {
+  cursor: pointer;
+}
+[dir="ltr"] .mejs-button [role="menu"] ul li label { margin-left: 5px }
+[dir="rtl"] .mejs-button [role="menu"] ul li label { margin-right: 5px }
+
+
+.mejs-button [role="menu"] label.mejs-selected {
+  color: #21f8f8 !important;
+}
+
+/* stylelint-enable property-disallowed-list, declaration-property-value-disallowed-list */
+</style><script charset="utf-8" src="./fl18_files/4108-c-f51caaec17.js"></script></head>
+
+<body class="with-left-side course-menu-expanded padless-content pages primary-nav-expanded full-width context-course_448 responsive_awareness responsive_misc responsive_student_grades_page show webkit chrome no-touch">
+
+<noscript>
+  <div role="alert" class="ic-flash-static ic-flash-error">
+    <div class="ic-flash__icon" aria-hidden="true">
+      <i class="icon-warning"></i>
+    </div>
+    <h1> To access this site, you must enable JavaScript.</h1>
+  </div>
+</noscript>
+
+
+
+
+<ul id="flash_message_holder"></ul>
+<div id="flash_screenreader_holder" role="alert" aria-live="assertive" aria-relevant="additions" class="screenreader-only" aria-atomic="false"></div>
+
+<div id="application" class="ic-app">
+  
+
+
+
+    <header id="mobile-header" class="no-print">
+      <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-hamburger">
+        <i class="icon-solid icon-hamburger"></i>
+        <span id="mobileHeaderInboxUnreadBadge" class="menu-item__badge" style="min-width: 0; top: 12px; height: 12px; right: 6px; display:none;"></span>
+        <span class="screenreader-only">Dashboard</span>
+      </button>
+      <div class="mobile-header-space"></div>
+        <a class="mobile-header-title expandable" href="https://moringaschool.instructure.com/courses/448" role="button" aria-controls="mobileContextNavContainer">
+          <div>SDC45FlaskRemote</div>
+            <div>Weekend: Welcome to Flask; The Internet Virtual Environment</div>
+        </a>
+        <div class="mobile-header-space"></div>
+        <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-arrow" aria-label="Navigation menu">
+          <i class="icon-arrow-open-down" id="mobileHeaderArrowIcon"></i>
+        </button>
+    </header>
+    <nav id="mobileContextNavContainer"></nav>
+  <header id="header" class="ic-app-header no-print ">
+    <a href="https://moringaschool.instructure.com/courses/448/pages/weekend-welcome-to-flask-the-internet-virtual-environment?module_item_id=40075#content" id="skip_navigation_link">Skip to content</a>
+      <div role="region" class="ic-app-header__main-navigation" aria-label="Global navigation">
+        <div class="ic-app-header__logomark-container">
+          <a href="https://moringaschool.instructure.com/" class="ic-app-header__logomark">
+            <span class="screenreader-only">Dashboard</span>
+          </a>
+        </div>
+        <ul id="menu" class="ic-app-header__menu-list">
+            <li class="menu-item ic-app-header__menu-list-item ">
+              <button id="global_nav_profile_link" class="ic-app-header__menu-list-link">
+                <div class="menu-item-icon-container">
+                  <div aria-hidden="true" class="fs-exclude ic-avatar ">
+                    <img src="./fl18_files/avatar-50.png" alt="john.gicho@student.moringaschool.com">
+                  </div>
+                  <span class="menu-item__badge"></span>
+                </div>
+                <div class="menu-item__text">
+                  Account
+                </div>
+              </button>
+            </li>
+          <li class="ic-app-header__menu-list-item ">
+            <a id="global_nav_dashboard_link" href="https://moringaschool.instructure.com/" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--dashboard" version="1.1" x="0" y="0" viewBox="0 0 280 200" enable-background="new 0 0 280 200" xml:space="preserve"><path d="M273.09,180.75H197.47V164.47h62.62A122.16,122.16,0,1,0,17.85,142a124,124,0,0,0,2,22.51H90.18v16.29H6.89l-1.5-6.22A138.51,138.51,0,0,1,1.57,142C1.57,65.64,63.67,3.53,140,3.53S278.43,65.64,278.43,142a137.67,137.67,0,0,1-3.84,32.57ZM66.49,87.63,50.24,71.38,61.75,59.86,78,76.12Zm147,0L202,76.12l16.25-16.25,11.51,11.51ZM131.85,53.82v-23h16.29v23Zm15.63,142.3a31.71,31.71,0,0,1-28-16.81c-6.4-12.08-15.73-72.29-17.54-84.25a8.15,8.15,0,0,1,13.58-7.2c8.88,8.21,53.48,49.72,59.88,61.81a31.61,31.61,0,0,1-27.9,46.45ZM121.81,116.2c4.17,24.56,9.23,50.21,12,55.49A15.35,15.35,0,1,0,161,157.3C158.18,152,139.79,133.44,121.81,116.2Z"></path></svg>
+
+              </div>
+              <div class="menu-item__text">Dashboard</div>
+            </a>
+          </li>
+            <li class="menu-item ic-app-header__menu-list-item ic-app-header__menu-list-item--active">
+              <button id="global_nav_courses_link" class="ic-app-header__menu-list-link">
+                <div class="menu-item-icon-container" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--courses" version="1.1" x="0" y="0" viewBox="0 0 280 259" enable-background="new 0 0 280 259" xml:space="preserve"><path d="M73.31,198c-11.93,0-22.22,8-24,18.73a26.67,26.67,0,0,0-.3,3.63v.3a22,22,0,0,0,5.44,14.65,22.47,22.47,0,0,0,17.22,8H200V228.19h-134V213.08H200V198Zm21-105.74h90.64V62H94.3ZM79.19,107.34V46.92H200v60.42Zm7.55,30.21V122.45H192.49v15.11ZM71.65,16.71A22.72,22.72,0,0,0,49,39.36V190.88a41.12,41.12,0,0,1,24.32-8h157V16.71ZM33.88,39.36A37.78,37.78,0,0,1,71.65,1.6H245.36V198H215.15v45.32h22.66V258.4H71.65a37.85,37.85,0,0,1-37.76-37.76Z"></path></svg>
+
+                </div>
+                <div class="menu-item__text">
+                  Courses
+                </div>
+              </button>
+            </li>
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_calendar_link" href="https://moringaschool.instructure.com/calendar" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--calendar" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M197.07,213.38h16.31V197.07H197.07Zm-16.31,16.31V180.76h48.92v48.92Zm-48.92-16.31h16.31V197.07H131.85Zm-16.31,16.31V180.76h48.92v48.92ZM66.62,213.38H82.93V197.07H66.62ZM50.32,229.68V180.76H99.24v48.92Zm146.75-81.53h16.31V131.85H197.07Zm-16.31,16.31V115.54h48.92v48.92Zm-48.92-16.31h16.31V131.85H131.85Zm-16.31,16.31V115.54h48.92v48.92ZM66.62,148.15H82.93V131.85H66.62ZM50.32,164.46V115.54H99.24v48.92ZM34,262.29H246V82.93H34ZM246,66.62V42.16A8.17,8.17,0,0,0,237.84,34H213.38v8.15a8.15,8.15,0,1,1-16.31,0V34H82.93v8.15a8.15,8.15,0,0,1-16.31,0V34H42.16A8.17,8.17,0,0,0,34,42.16V66.62Zm-8.15-48.92a24.49,24.49,0,0,1,24.46,24.46V278.6H17.71V42.16A24.49,24.49,0,0,1,42.16,17.71H66.62V9.55a8.15,8.15,0,0,1,16.31,0v8.15H197.07V9.55a8.15,8.15,0,1,1,16.31,0v8.15Z"></path></svg>
+
+              </div>
+              <div class="menu-item__text">
+                Calendar
+              </div>
+            </a>
+          </li>
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_conversations_link" href="https://moringaschool.instructure.com/conversations" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container">
+                <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--inbox" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M91.72,120.75h96.56V104.65H91.72Zm0,48.28h80.47V152.94H91.72Zm0-96.56h80.47V56.37H91.72Zm160.94,34.88H228.52V10.78h-177v96.56H27.34A24.17,24.17,0,0,0,3.2,131.48V244.14a24.17,24.17,0,0,0,24.14,24.14H252.66a24.17,24.17,0,0,0,24.14-24.14V131.48A24.17,24.17,0,0,0,252.66,107.34Zm0,16.09a8.06,8.06,0,0,1,8,8v51.77l-32.19,19.31V123.44ZM67.58,203.91v-177H212.42v177ZM27.34,123.44H51.48v79.13L19.29,183.26V131.48A8.06,8.06,0,0,1,27.34,123.44ZM252.66,252.19H27.34a8.06,8.06,0,0,1-8-8V202l30,18H230.75l30-18v42.12A8.06,8.06,0,0,1,252.66,252.19Z"></path></svg>
+</span>
+                <span class="menu-item__badge"></span>
+              </div>
+              <div class="menu-item__text">
+                Inbox
+              </div>
+            </a>
+          </li>
+            <li class="menu-item ic-app-header__menu-list-item">
+              <button id="global_nav_history_link" class="ic-app-header__menu-list-link">
+                <div class="menu-item-icon-container" aria-hidden="true">
+                  <svg viewBox="0 0 1920 1920" class="ic-icon-svg menu-item__icon svg-icon-history" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M960 112.941c-467.125 0-847.059 379.934-847.059 847.059 0 467.125 379.934 847.059 847.059 847.059 467.125 0 847.059-379.934 847.059-847.059 0-467.125-379.934-847.059-847.059-847.059M960 1920C430.645 1920 0 1489.355 0 960S430.645 0 960 0s960 430.645 960 960-430.645 960-960 960m417.905-575.955L903.552 988.28V395.34h112.941v536.47l429.177 321.77-67.765 90.465z" stroke="none" stroke-width="1" fill-rule="evenodd"></path>
+</svg>
+                </div>
+                <div class="menu-item__text">
+                  History
+                </div>
+              </button>
+            </li>
+            
+
+
+          <li class="ic-app-header__menu-list-item">
+           <a id="global_nav_help_link" role="button" class="ic-app-header__menu-list-link" data-track-category="help system" data-track-label="help button" href="http://help.instructure.com/">
+              <div class="menu-item-icon-container" role="presentation">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg menu-item__icon svg-icon-cog" version="1.1" x="0" y="0" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve" fill="currentColor"><path d="M100,127.88A27.88,27.88,0,1,1,127.92,100,27.92,27.92,0,0,1,100,127.88M100,61a39,39,0,1,0,39,39,39.08,39.08,0,0,0-39-39m73.42,39a70.26,70.26,0,0,0-1.15-12.57l20.76-18-19.7-33.66-26.19,8.73a74.2,74.2,0,0,0-22.11-12.68L119.68,5.2H80.4L75,31.83A72.9,72.9,0,0,0,52.89,44.51L26.71,35.79,7,69.45l20.74,18a69.95,69.95,0,0,0,0,25.13L7,130.55l19.7,33.66,26.19-8.74A74.23,74.23,0,0,0,75,168.16l5.4,26.64h39.28l5.4-26.63a72.88,72.88,0,0,0,22.11-12.69l26.19,8.74,19.7-33.66-20.76-18A70.26,70.26,0,0,0,173.46,100Zm5.31,32.92-10.45,17.86-23.72-7.92-2.42,2.2a61.7,61.7,0,0,1-23.57,13.51l-3.17,1-4.88,24.1h-21l-4.88-24.11-3.17-1A61.7,61.7,0,0,1,57.91,145l-2.42-2.2-23.72,7.92L21.31,132.91l18.74-16.24-.74-3.26a59.25,59.25,0,0,1,0-26.83l.74-3.26L21.31,67.09,31.76,49.23l23.72,7.91,2.42-2.2A61.87,61.87,0,0,1,81.47,41.42l3.17-1,4.88-24.1h21l4.88,24.11,3.17,1A61.73,61.73,0,0,1,142.18,55l2.42,2.2,23.72-7.92,10.45,17.86L160,83.33l.74,3.26a59.25,59.25,0,0,1,0,26.83l-.74,3.26Z"></path></svg>
+
+                <span class="menu-item__badge"></span>
+              </div>
+              <div class="menu-item__text">
+                Help Desk
+              </div>
+</a>          </li>
+        </ul>
+      </div>
+      <div class="ic-app-header__secondary-navigation">
+        <ul class="ic-app-header__menu-list">
+          <li class="menu-item ic-app-header__menu-list-item">
+            <button id="primaryNavToggle" class="ic-app-header__menu-list-link ic-app-header__menu-list-link--nav-toggle" aria-label="Minimise global navigation" title="Minimise global navigation">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--navtoggle" version="1.1" x="0" y="0" width="40" height="32" viewBox="0 0 40 32" xml:space="preserve">
+  <path d="M39.5,30.28V2.48H37.18v27.8Zm-4.93-13.9L22.17,4,20.53,5.61l9.61,9.61H.5v2.31H30.14l-9.61,9.61,1.64,1.64Z"></path>
+</svg>
+
+              </div>
+            </button>
+          </li>
+        </ul>
+      </div>
+    <div id="global_nav_tray_container"></div>
+    <div id="global_nav_tour"></div>
+  </header>
+
+
+  <div id="instructure_ajax_error_box">
+    <div style="text-align: right; background-color: #fff;"><a href="https://moringaschool.instructure.com/courses/448/pages/weekend-welcome-to-flask-the-internet-virtual-environment?module_item_id=40075#" class="close_instructure_ajax_error_box_link">Close</a></div>
+    <iframe id="instructure_ajax_error_result" src="./fl18_files/saved_resource.html" style="border: 0;" title="Error"></iframe>
+  </div>
+
+  <div id="wrapper" class="ic-Layout-wrapper">
+      <div class="ic-app-nav-toggle-and-crumbs no-print">
+          <button type="button" id="courseMenuToggle" class="Button Button--link ic-app-course-nav-toggle" aria-live="polite" aria-label="Hide courses navigation menu">
+            <i class="icon-hamburger" aria-hidden="true"></i>
+          </button>
+
+        <div class="ic-app-crumbs">
+            <nav id="breadcrumbs" role="navigation" aria-label="breadcrumbs"><ul><li class="home"><a href="https://moringaschool.instructure.com/"><span class="ellipsible">      <i class="icon-home" title="My dashboard">
+        <span class="screenreader-only">My dashboard</span>
+      </i>
+</span></a></li><li><a href="https://moringaschool.instructure.com/courses/448"><span class="ellipsible">SDC45FlaskRemote</span></a></li><li><a href="https://moringaschool.instructure.com/courses/448/pages"><span class="ellipsible">Pages</span></a></li><li><span class="ellipsible">Weekend: Welcome to Flask; The Internet Virtual Environment</span></li></ul></nav>
+        </div>
+
+
+        <div class="right-of-crumbs">
+            <div class="TutorialToggleHolder"></div>
+        </div>
+
+      </div>
+    <div id="main" class="ic-Layout-columns">
+        <div class="ic-Layout-watermark"></div>
+        <div id="left-side" class="ic-app-course-menu list-view" style="display: block">
+                <span id="section-tabs-header-subtitle" class="ellipsis">SD45</span>
+              <nav role="navigation" aria-label="Courses navigation menu"><ul id="section-tabs"><li class="section"><a href="https://moringaschool.instructure.com/courses/448" class="home" tabindex="0">Home</a></li><li class="section"><a href="https://moringaschool.instructure.com/courses/448/modules" class="modules" tabindex="0">Modules</a></li><li class="section"><a href="https://moringaschool.instructure.com/courses/448/grades" class="grades" tabindex="0">Grades</a></li><li class="section"><a href="https://moringaschool.instructure.com/courses/448/assignments" class="assignments" tabindex="0">Assignments</a></li><li class="section"><a href="https://moringaschool.instructure.com/courses/448/discussion_topics" class="discussions" tabindex="0">Discussions</a></li><li class="section"><a href="https://moringaschool.instructure.com/courses/448/files" class="files" tabindex="0">Files</a></li><li class="section"><a href="https://moringaschool.instructure.com/courses/448/lti_collaborations" class="collaborations" tabindex="0">Collaborations</a></li><li class="section"><a href="https://moringaschool.instructure.com/courses/448/external_tools/162" class="context_external_tool_162" tabindex="0">Google Drive</a></li><li class="section"><a href="https://moringaschool.instructure.com/courses/448/external_tools/164" class="context_external_tool_164" tabindex="0">Daily Health Check </a></li></ul></nav>
+        </div>
+      <div id="not_right_side" class="ic-app-main-content">
+        <div id="content-wrapper" class="ic-Layout-contentWrapper">
+          
+          <div id="content" class="ic-Layout-contentMain" role="main">
+            
+
+  
+
+<div id="wiki_page_show">
+
+<div class="show-content user_content clearfix enhanced">
+  <h1 class="page-title">Weekend: Welcome to Flask; The Internet Virtual Environment</h1>
+  
+  
+    <h2>Welcome to Flask</h2>
+<p>Flask is a web framework that has tools that allow us to create web applications.</p>
+<p>It belongs to a category of web frameworks known as a<span>&nbsp;</span><strong>micro-framework</strong>. This means Flask contains very few dependencies out of the box. It allows the developer to take the driver's seat and have full creative control over the application.</p>
+<p>It comes packed with a robust core that is also supplemented by many other third party extensions that can be picked to fit our different needs.</p>
+<p>Flask has two main dependencies:</p>
+<ol>
+<li>
+<strong>Werkzeug</strong><span>&nbsp;</span>- This provides flask with _routing_,_debugging_ and _web server_ capabilities.</li>
+<li>
+<strong>Jinja 2</strong><span>&nbsp;</span>- This provides template support for flask.</li>
+</ol>
+<h2>Web Clients and Servers</h2>
+<p>You're about to learn your first Python web framework! Before we begin, let's address several language independent concepts that apply to the internet in general.</p>
+<p>In this lesson, we will walk through details of how the web works; From your browser, known as the<span>&nbsp;</span><strong>client</strong>, to a<span>&nbsp;</span><strong>web server</strong><span>&nbsp;</span>and back again.</p>
+<h3>IP Addresses and the Internet</h3>
+<p>First, let's talk about the<span>&nbsp;</span><strong>Internet</strong>.</p>
+<p>When we use the term Internet, we refer to millions of networks that are connected to allow devices (computers, laptops, tablets, phones, etc) to communicate with one another, and access content.</p>
+<p>Similar to the address of your home, the device you use to browse the Internet also has an address called an<span>&nbsp;</span><strong>Internet Protocol</strong><span>&nbsp;</span>address, or<span>&nbsp;</span><strong>IP address</strong><span>&nbsp;</span>for short. This address is assigned by an<span>&nbsp;</span><strong>Internet Service Provider (ISP)</strong>.</p>
+<p>Similarly, the server for a website you visit also has an IP address. IP addresses are represented with a set of four groups of numbers separated by periods, like this:</p>
+<p>_198.185.159.145_</p>
+<p>You may also see an additional number after an IP Address that's separated from the others by a colon, like this:</p>
+<p>_198.185.159.145:43_</p>
+<p>This additional number is a<span>&nbsp;</span><strong>port</strong><span>&nbsp;</span>number. A port number is like an apartment number or box number after your mailing or home address. It indicates an even more specific location information will travel to at the particular address.</p>
+<h3>Communicating Between Addresses</h3>
+<p>To recap, we've covered two addresses so far: Your device's address and a website's address. Next, let's walk through how your address and the website's address interact when you visit a website on your device.</p>
+<h4>Client-Server Process</h4>
+<h5>Requests</h5>
+<p>First, in order to access a website you must make a request from a client. The client is usually a web browser, like Chrome, Firefox, Safari, or Internet Explorer. Essentially,anything that facilitates your interaction with the web and web addresses. And making a request usually looks like entering a web address in the browser's _URL bar_, clicking a link, or submitting a form. Anything that triggers a navigational change to a new location on the internet.</p>
+<p>When you create a request, the client constructs a message (similar to mailing something from one address to another). This message must be formatted using a strict set of rules, or protocol, known as<span>&nbsp;</span><strong>Hypertext Transfer Protocol (HTTP)</strong>.</p>
+<p>Part of this message includes the web address that you are sending your request to: For example, when we click a link to visit this area of the website, the web address _http://moringaschool.com/_ is included.</p>
+<p>Continuing with the metaphor of mailing a letter, Hypertext Transfer Protocol (HTTP) is similar to the formatting rules of addressing an envelope. You can't place the address just anywhere, or format it in any manner you please. There is a protocol for what information is required (street address, city, state, zip), the format it is written in, and where these pieces of information are placed on the envelope. Deviation from this protocol will result in your message, or "letter", not reaching its intended destination.</p>
+<p>HTTP has similar standards. It requires certain kinds of information, placed and formatted in a specific manner in order for the client to reach its destination. For instance, when the request message for http://moringaschool.com/ leaves the client, the ISP is the first stop on the round trip to collect the Moringa School's web content from the server where it is stored.</p>
+<p>Before the location of the server can be found, the IP address must be identified using the web address provided in the client's request message. This is the job of the<span>&nbsp;</span><strong>Domain Naming System</strong><span>&nbsp;</span>or<span>&nbsp;</span><strong>DNS servers</strong>.</p>
+<p>There are hundreds of DNS servers that house databases with the single purpose of resolving web addresses to IP addresses. In our example, a DNS server matches _http://moringaschool.com/_ to the IP address: _198.54.116.26_. Once resolved to an IP address, your request message is sent to its identified destination, 198.54.116.26, or, the server that contains our Moringa School's website.</p>
+<p>The web server receives the message and determines the resource that is being located or acted upon in the request. In our example, the request to view _http://moringaschool.com/_ will gather the resource for displaying the main Courses page. This resource is an an HTML document. Depending on the website, other resources may need to be gathered too, such as images, stylesheets, scripts, videos, etc.</p>
+<h5>Responses</h5>
+<p>When the content is collected, the server returns it in a<span>&nbsp;</span><strong>response</strong><span>&nbsp;</span>back to the client. The response is interpreted by the client and you see the _http://moringaschool.com/_ main page displayed in your browser window.</p>
+<p>When you interact again with the site, by clicking a link, or navigating to a different area, the whole process begins again.</p>
+<p>Although you're probably most familiar with making web requests through your web browser, know that any program can actually be a web client. For instance, a program installed on your computer that automatically checks for and downloads updates, an app running on your tablet, or even one web server making a request to another web server are all clients. Each of these must use the same HTTP protocol.</p>
+<h5>Terminology</h5>
+<ul>
+<li>
+<p><strong>Client</strong>: A computer program that sends a request to another program for data or services (e.g., a web browser is a client that sends requests to a web server).</p>
+</li>
+<li>
+<p><strong>Server or Web Server</strong>: A computer program or device that uses HTTP to distribute information to a client.</p>
+</li>
+<li>
+<p><strong>Internet Protocol (IP) Address</strong>: A set of numbers separated by periods that uniquely identifies a device on the Internet.</p>
+</li>
+<li>
+<p><strong>Port number</strong>: Part of the addressing information used to identify the sender/receiver of requests at an IP address (e.g., 43 is the port number with this IP address: 198.185.159.145:43).</p>
+</li>
+<li>
+<p><strong>Internet Service Provider (ISP)</strong>: A company that provides access to the Internet and assigns an IP address to the connecting device.</p>
+</li>
+<li>
+<p><strong>Hypertext Transfer Protocol (HTTP)</strong>: A protocol that defines how requests are formatted, transmitted and processed between web clients and web servers.</p>
+</li>
+<li>
+<p><strong>Domain Naming System (DNS) Servers</strong>: The "address book" of the Internet; servers that maintain all domain names and translate them to Internet Protocol (IP) addresses.</p>
+</li>
+<li>
+<p><strong>Web Resource</strong>: The target of a web address; Examples of web resources include files, documents, images, videos, stylesheets, scripts.</p>
+</li>
+</ul>
+<h4>Additional Resources</h4>
+<p>To further explore any of these concepts, visit the following articles linked in this lesson:</p>
+<ul>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Client%E2%80%93server_model" class="external" target="_blank" rel="noreferrer noopener"><span>Web Server</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span><span class="screenreader-only">&nbsp;(Links to an external site.)</span></a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Client_(computing)" class="external" target="_blank" rel="noreferrer noopener"><span>Client</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span><span class="screenreader-only">&nbsp;(Links to an external site.)</span></a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/IP_address" class="external" target="_blank" rel="noreferrer noopener"><span>IP Address</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span><span class="screenreader-only">&nbsp;(Links to an external site.)</span></a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Internet_service_provider" class="external" target="_blank" rel="noreferrer noopener"><span>Internet Service Provider (ISP)</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span><span class="screenreader-only">&nbsp;(Links to an external site.)</span></a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" class="external" target="_blank" rel="noreferrer noopener"><span>Hypertext Transfer Protocol (HTTP)</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span><span class="screenreader-only">&nbsp;(Links to an external site.)</span></a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Domain_Name_System" class="external" target="_blank" rel="noreferrer noopener"><span>Domain Naming System (DNS)</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span><span class="screenreader-only">&nbsp;(Links to an external site.)</span></a></p>
+</li>
+</ul>
+<h4>Uniform Resource Locator (URL)</h4>
+<p>As we discussed in the previous lesson, when you navigate to http://www.moringaschool.com/, your browser makes a request to a web server. One of the most important parts of that request is the address you're visiting. That address is technically called the<span>&nbsp;</span><strong>URL</strong>, short for<span>&nbsp;</span><strong>Uniform Resource Locator</strong>, or<span>&nbsp;</span><strong>URI</strong>, short for<span>&nbsp;</span><strong>Uniform Resource Identifier</strong>. (The difference is largely semantics.) In this lesson, we'll explore the URL in detail.</p>
+<h5>Required URL elements</h5>
+<p>Some elements must be included in the URL for a request to be successful. Here is an example of a URL.</p>
+<pre><code> http://www.moringaschool.com/about
+</code></pre>
+<p>Let us break it down to see each individual element.</p>
+<h5>1. Scheme</h5>
+<p>The<span>&nbsp;</span><strong>scheme</strong><span>&nbsp;</span>defines how the client locates or acts upon the requested resource. In our example, the client will make a request using the _http://_ scheme. Other schemes include _ftp_, _mailto_, and _file_. The scheme is always followed by a colon; for the http scheme, a colon and two slashes (://).</p>
+<h5>2. Host</h5>
+<p>The<span>&nbsp;</span><strong>host</strong><span>&nbsp;</span>provides the details of where the requested resource is located. The host in a URL is either the domain name for the IP address or the IP address itself. In our example, the host is _www.moringaschool.com_.</p>
+<h5>3.Path</h5>
+<p>The path consists of one or more segments separated by slashes and provides the name for identifying the resource requested. In our example, the path indicates the resource: _/about_. This directs to the _About_ page of the Moringa school website.</p>
+<h5>Optional URL elements</h5>
+<p>Not all elements in a URL are required. Here are two that are optional.</p>
+<h5>1. ? Query</h5>
+<p>There may be times where the URL contents must provide additional details for a resource to be identified.</p>
+<p>For example, if we use the search functionality on _https://www.python.org_, the server will need to know the input that we enter in order to know what search results to return. When we enter "python3" as our search parameter and press "Search", the request is made to this URL: _https://www.python.org/search/?q=python3_</p>
+<p>After the path in the URL, we see a<span>&nbsp;</span><code>?</code><span>&nbsp;</span>symbol which indicates the beginning of a<span>&nbsp;</span><strong>query string</strong>.</p>
+<p>You'll see our search parameter has a<span>&nbsp;</span><strong>key</strong><span>&nbsp;</span>of _search_ and a<span>&nbsp;</span><strong>value</strong><span>&nbsp;</span>of _internet_. Query parameters are separated by the<span>&nbsp;</span><code>&amp;</code><span>&nbsp;</span>symbol when there is more than one.</p>
+<p>With this information, the server will use the value to query the database for only the lessons that have the term "internet" in them.</p>
+<h5>2. # Fragment</h5>
+<p>Another optional URL element is called a fragment.</p>
+<p>Here is an example of a URL containing a fragment:</p>
+<p>_https://docs.python.org/3.6/tutorial/#the-python-tutorial_</p>
+<p>Fragments begin with a<span>&nbsp;</span><code>#</code><span>&nbsp;</span>symbol and contain information that's typically processed by the client, rather than the server. In this example, "the-python-tutorial" is the id of a div in the HTML document that is returned. The HTML page is extremely long but by adding the fragment, the browser will position the display of the page precisely at that element when displayed.</p>
+<p>If you remove the fragment, the position returns to the default top of the document.</p>
+<h4>Terminology</h4>
+<ul>
+<li>
+<p><strong>Uniform Resource Identifier (URI)/Uniform Resource Locator (URL)</strong>: The web address which specifies the location of the requested web resources.</p>
+</li>
+<li>
+<p><strong>Scheme</strong>: The part of the URL that indicates the protocol to be used in communication (e.g. http://).</p>
+</li>
+<li>
+<p><strong>Host</strong>: The part of the URL that contains the domain name.</p>
+</li>
+<li>
+<p><strong>Path</strong>: The part of the URL that contains the resource name.</p>
+</li>
+<li>
+<p><strong>Query string</strong>: An optional part of a URL that contains parameters for querying a database; begins with the<span>&nbsp;</span><code>?</code><span>&nbsp;</span>symbol; often used in a search request.</p>
+</li>
+<li>
+<p><strong>Fragment</strong>: An optional part of a URL that contains details for where the browser should display the information (e.g. on a particular div).</p>
+</li>
+</ul>
+<h4>Additional Resources</h4>
+<p><a href="https://en.wikipedia.org/wiki/Uniform_Resource_Locator" class="external" target="_blank" rel="noreferrer noopener"><span>Uniform Resource Locator</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span><span class="screenreader-only">&nbsp;(Links to an external site.)</span></a></p>
+<h3>HTTP Requests</h3>
+<p>Let's take a closer look at HTTP. In this lesson, we'll examine the organization and data of HTTP requests.</p>
+<h4>HTTP request-response cycle</h4>
+<h5>Client HTTP Requests</h5>
+<p>When the client triggers a new HTTP request, the request includes four elements that will be sent to the server:</p>
+<ol>
+<li>Method</li>
+<li>Path</li>
+<li>Headers</li>
+<li>Body</li>
+</ol>
+<h5>HTTP Method</h5>
+<p>HTTP methods, also known as _verbs_, indicate the kind of action that the client is requesting be done in the server. The two most frequently used methods are the ones that are supported by all browsers:<span>&nbsp;</span><strong>GET</strong><span>&nbsp;</span>and<span>&nbsp;</span><strong>POST</strong>. A request with a GET method indicates that a resource is being _retrieved_. A request with a POST method indicates that the resource is being _changed_ - _possibly added_, _updated_ or _deleted_.</p>
+<p>An example of a GET request would be when we navigate to the Moringa School immersive page. The client requests the resource at the URL, _http://www.moringaschool.com/_ and the / resource(s) is retrieved.</p>
+<p>An example of a POST request would be when we click submit on a form to add our email to a mailing list. The message would post data to the server by adding our information to the mailing list resource.</p>
+<h5>Path</h5>
+<p>The path identifies the web resource that should be retrieved (GET) or acted upon (POST). In our example, _http://www.moringaschool.com/_, the resource _/immersive_ is known as the path.</p>
+<h5>Headers</h5>
+<p>Request headers are part of the request message protocol and provide the server with more information about the client, the server and the request.</p>
+<p>Here are some examples of header fields that are included in a request message:</p>
+<ul>
+<li>Host: This is the host or domain name of the server. In our example: www.moringaschool.com.</li>
+<li>User-agent: This is the software acting on behalf of the user to make the request; in our example, this would be our browser (Chrome, Firefox, etc)</li>
+<li>Accept-language: This includes the human languages that are acceptable for the response.</li>
+</ul>
+<h5>Body</h5>
+<p>The body contains data beyond the contents of the URL and headers that needs to be transmitted to the server. For example, if a user submits a form with data, the resulting POST request would need to include all of the data inputted so the server could store the information. This data is delivered in the body of the request.</p>
+<h4>Terminology</h4>
+<ul>
+<li>
+<p><strong>HTTP Method</strong>: The kind of action that the client is requesting to be done in the web server, also known as a verb. Most frequently used HTTP methods: GET and POST.</p>
+</li>
+<li>
+<p><strong>GET</strong>: A request method that retrieves information from the server but does not change anything on the server. Example: request to see a homepage for a site.</p>
+</li>
+<li>
+<p><strong>POST</strong>: A request method that acts upon the resource by adding, updating or deleting information on the server. Example: submitting a form to join a mailing list which adds your name to the list.</p>
+</li>
+<li>
+<p><strong>HTTP Request Header</strong>: The first lines of an HTTP request message that include information about the client, server and the request.</p>
+</li>
+<li>
+<p><strong>HTTP Request Body</strong>: Data that needs to be transmitted to the server in the HTTP request message (like data from a submitted form).</p>
+</li>
+</ul>
+<h4>Additional Resources</h4>
+<p><a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" class="external" target="_blank" rel="noreferrer noopener"><span>List of all HTTP Header Fields</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span><span class="screenreader-only">&nbsp;(Links to an external site.)</span></a></p>
+<h4>HTTP Responses</h4>
+<p>After a server receives an HTTP request, it will respond with a message that consists of the following three elements:</p>
+<ol>
+<li>Status</li>
+<li>Headers</li>
+<li>Body</li>
+</ol>
+<h5>Status</h5>
+<p>The first line of a response message is the status which includes a status code and reason phrase. The HTTP status code is a three-digit number that indicates how the request was processed (or not). Each code is also accompanied by a reason phrase which is not read by the client but is intended for humans to provide a brief description of the status code.</p>
+<p>Below is a list of the five status code classes determined by the first digit of the code. This lesson shows the most common codes. To see a complete list, visit HTTP Status Codes.</p>
+<h5>1xx Informational</h5>
+<p>Status codes beginning with 1 indicate the request was received. This class of code is rarely used.</p>
+<h5>2xx Success</h5>
+<p>Status codes beginning with 2 indicate the request was received and handled successfully.</p>
+<p>Examples</p>
+<ul>
+<li>
+<p><strong>200</strong>: OK</p>
+</li>
+<li>
+<p><strong>201</strong>: Created</p>
+</li>
+</ul>
+<h5>3xx Redirection</h5>
+<p>Status codes beginning with 3 indicate that additional action is required to complete processing the request.</p>
+<p>Examples</p>
+<ul>
+<li>
+<p><strong>301</strong>: Moved permanently</p>
+</li>
+<li>
+<p><strong>302</strong>: Moved temporarily</p>
+</li>
+</ul>
+<h5>4xx Client errors</h5>
+<p>Status codes beginning with 4 indicate that something was wrong about the request.</p>
+<p>Examples</p>
+<ul>
+<li>
+<p><strong>400</strong>: Bad Request (the request used invalid syntax)</p>
+</li>
+<li>
+<p><strong>401</strong>: Unauthorized (you have to log in)</p>
+</li>
+<li>
+<p><strong>403</strong>: Forbidden (you're logged in, but not allowed to make this request)</p>
+</li>
+<li>
+<p><strong>404</strong>: Not Found</p>
+</li>
+<li>
+<p><strong>422</strong>: Unprocessable (the request had valid syntax but the instructions it contained were invalid)</p>
+</li>
+</ul>
+<h5>5xx Server errors</h5>
+<p>Status codes beginning with 5 indicate that something went wrong on the server side, such as a bug in the code or a server that went down.</p>
+<p>Examples</p>
+<ul>
+<li>
+<p><strong>500</strong>: Internal Server Error (usually a bug in the server code)</p>
+</li>
+<li>
+<p><strong>502</strong>: Bad Gateway (the server sent the request to another server and got an invalid response)</p>
+</li>
+<li>
+<p><strong>503</strong>: Service Unavailable (the server is overloaded or down for maintenance)</p>
+</li>
+</ul>
+<h5>Headers</h5>
+<p>Like request headers, response headers include additional protocol providing more details about the HTTP response.</p>
+<p>Some examples of response header fields include:</p>
+<ul>
+<li>Server: The name of the server where the response is coming from.</li>
+<li>Content-Language: The human language(s) of the content.</li>
+<li>Content-Length: How long the response body is in 8-bit bytes.</li>
+</ul>
+<h5>Body</h5>
+<p>The response body includes all of the content for the resource requested. You'll often hear it referred to as the<span>&nbsp;</span><strong>payload</strong>. When we issue a GET request for _http://www.moringaschool.com/_, we expect the body to include an HTML document with the table of contents. This resource may need additional resources such as images, CSS, script files, etc. For each resource, a new request is made by the client and a new response is issued for the resource from the server.</p>
+<p>Once there is a response to all of the requests, the / resource is displayed in the browser.</p>
+<h4>Terminology</h4>
+<ul>
+<li>
+<p><strong>Status code</strong>: First line of the response message from the server consisting of a three-digit number indicating the status of the request. Example: 200 indicates that the request was successfully processed.</p>
+</li>
+<li>
+<p><strong>Status reason</strong>: The human language interpretation of the status code, not read by the client but intended for humans.</p>
+</li>
+<li>
+<p><strong>Payload</strong>: The data that was requested in the original request message that is not protocol. Example: the payload for a request for the main page of a website would be the actual HTML document content.</p>
+</li>
+</ul>
+<h4>Overview</h4>
+<p>Status Codes<span>&nbsp;</span><strong>1xx</strong><span>&nbsp;</span>Informational</p>
+<p><strong>2xx</strong><span>&nbsp;</span>Success</p>
+<p><strong>3xx</strong><span>&nbsp;</span>Redirection</p>
+<p><strong>4xx</strong><span>&nbsp;</span>Client errors</p>
+<p><strong>5xx</strong><span>&nbsp;</span>Server errors</p>
+<p>Additional Resources Complete List of HTTP Status Codes may be found<span>&nbsp;</span><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Response_codes" class="external" target="_blank" rel="noreferrer noopener"><span>here</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span><span class="screenreader-only">&nbsp;(Links to an external site.)</span></a>.</p>
+<h2>Setting up Flask</h2>
+<p>The most convenient way to install Flask is using a<span>&nbsp;</span><strong>virtual environment</strong>.</p>
+<p>A virtual environment is a private copy of the Python interpreter that allows us to install packages privately. This means all the third party modules will only be available in that environment. This is very useful because it prevents the packages from cluttering our system and also prevents conflicts.</p>
+<h3>Creating a Virtual Environment.</h3>
+<p>Let us create a simple<span>&nbsp;</span><code>Hello World</code><span>&nbsp;</span>application.</p>
+<p>Create a new directory and name it<span>&nbsp;</span><em>Hello-Flask</em>. Inside it let us create a new virtual environment for our application so that we can install Flask.<span style="font-size: 1rem;"></span></p>
+<p>Python3.6 comes with a tool called<span>&nbsp;</span><code>venv</code><span>&nbsp;</span>that allows us to create a virtual environments.</p>
+<div class="codehilite">
+<pre><span></span><code>$ python3.6 -m venv --without-pip virtual
+</code></pre>
+</div>
+<p>Above we used the tool to create a virtual environment and called it<span>&nbsp;</span><code>virtual</code>. We can give our virtual environment any name provided it is easy to remember.</p>
+<h4>Activating and Deactivating the virtual environment</h4>
+<p>To activate the virtual environment we run the following command:</p>
+<div class="codehilite">
+<pre><span></span><code>$ <span class="nb">source</span> virtual/bin/activate
+</code></pre>
+</div>
+<p>We know the virtual environment is active when the terminal responds with the name of your virtual environment before your computer's name. For the name<span>&nbsp;</span><code>virtual</code>, the terminal would return this:</p>
+<div class="codehilite">
+<pre><span></span><code><span class="o">(</span>virtual<span class="o">)</span> james@james-P43SJ:~/Desktop/exerciseFiles/Hello-Flask$
+</code></pre>
+</div>
+<p>Next, we are going to download the latest version of pip in virtual our environment. We will be using pip to install flask and any other packages that we will need.</p>
+<div class="codehilite">
+<pre><span></span><code>$ curl https://bootstrap.pypa.io/get-pip.py | python
+</code></pre>
+<p>To deactivate we simply use the<span>&nbsp;</span><code>deactivate</code><span>&nbsp;</span>keyword</p>
+<div class="codehilite">
+<pre><span></span><code><span class="o">(</span>virtual<span class="o">)</span> james@james-P43SJ:~/Desktop/exerciseFiles/Hello-Flask $ deactivate
+
+james@james-P43SJ:~/Desktop/exerciseFiles/Hello-Flask $
+</code></pre>
+</div>
+<h4>Installing Flask</h4>
+<p>Let us first get back to our virtual environment with the<span>&nbsp;</span><code>source virtual/bin/activate</code><span>&nbsp;</span>command.</p>
+<div class="codehilite">
+<pre><span></span><code>$ <span class="nb">source</span> virtual/bin/activate
+</code></pre>
+</div>
+<p>Now, in the virtual environment, we will install Flask to the project using the following command:</p>
+<div class="codehilite">
+<pre><span></span><code>$ pip install flask
+</code></pre>
+</div>
+<p>Here we use the pip tool to install Flask to our project. In the next lesson, we will create a basic Flask application that displays<span>&nbsp;</span><code>Hello World</code><span>&nbsp;</span>to the browser.</p>
+</div>
+  
+<iframe id="fs-iframe" title="Content Page Rating" src="./fl18_files/student_contract_copy.html" width="100%" height="400x"></iframe></div>
+</div>
+<div id="module_navigation_target"><div style=""><div class="module-sequence-padding"></div>
+<div class="module-sequence-footer" role="navigation" aria-label="Module Navigation">
+  <div class="module-sequence-footer-content">
+    
+      <span class="module-sequence-footer-button--previous" data-tooltip="right" data-html-tooltip-title="&lt;i class=&#39;icon-assignment&#39;&gt;&lt;/i&gt; python&amp;#x2F;flask week 1 IP">
+          <a href="https://moringaschool.instructure.com/courses/448/modules/items/40073" role="button" class="Button" aria-describedby="msf0-previous-desc" aria-label="Previous Module Item">
+            <i class="icon-mini-arrow-left"></i>Previous
+            <span id="msf0-previous-desc" class="hidden" hidden="">Previous: python/flask week 1 IP</span>
+          </a>
+      </span>
+    
+
+    
+      <span class="module-sequence-footer-button--next" data-tooltip="left" data-html-tooltip-title="&lt;i class=&#39;icon-document&#39;&gt;&lt;/i&gt; Weekend: Basic Flask App">
+        <a href="https://moringaschool.instructure.com/courses/448/modules/items/40076" role="button" class="Button" aria-describedby="msf0-next-desc" aria-label="Next Module Item">
+          Next<i class="icon-mini-arrow-right"></i>
+          <span id="msf0-next-desc" class="hidden" hidden="">Next: Weekend: Basic Flask App</span>
+        </a>
+      </span>
+    
+  </div>
+</div>
+</div></div>
+
+          </div>
+        </div>
+        <div id="right-side-wrapper" class="ic-app-main-content__secondary">
+          <aside id="right-side" role="complementary">
+            
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div style="display:none;"><!-- Everything inside of this should always stay hidden -->
+        <div id="page_view_id">16fad799-7188-489f-b557-f3fe5dbab9c7</div>
+    </div>
+  <div id="aria_alerts" class="hide-text affix" role="alert" aria-live="assertive"></div>
+  <div id="StudentTray__Container"></div>
+    <div class="NewUserTutorialTray__Container"></div>
+  
+
+  <script>
+    Object.assign(
+      ENV,
+      {}
+    )
+  </script>
+
+<link rel="preload" href="./fl18_files/inst_fs_service_worker-c-45cd13f265.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('inst_fs_service_worker');
+//]]>
+</script>
+  <script>
+//<![CDATA[
+
+      ;["https://instructure-uploads-eu.s3.eu-west-1.amazonaws.com/account_118060000000000001/attachments/68244/sth.js"].forEach(function(src) {
+        var s = document.createElement('script')
+        s.src = src
+        s.async = false
+        document.head.appendChild(s)
+      });
+//]]>
+</script>
+
+</div> <!-- #application -->
+
+
+<div id="nav-tray-portal" style="position: relative; z-index: 99;"></div></body></html>
